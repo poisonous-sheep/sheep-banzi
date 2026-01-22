@@ -1,7 +1,7 @@
 struct node {
     int l, r;
     mutable int v;
-    bool operator+(const node& o) const {
+    bool operator < (const node& o) const {
         return l < o.l;
     }
 };
