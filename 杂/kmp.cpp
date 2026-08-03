@@ -1,18 +1,18 @@
-vector<int> getNext(const string &s) {
+vector<int> getNext(const string& s) {
     int m = s.size();
 
     if (m == 1) {
         return {-1};
     }
 
-    vector<int> nxt(m);
+    vector<int> nxt(m + 1);
     nxt[0] = -1;
     nxt[1] = 0;
 
     int i = 2;
     int len = 0;
 
-    while (i < m) {
+    while (i <= m) {
         if (s[i - 1] == s[len]) {
             nxt[i++] = ++len;
         } else if (len > 0) {
