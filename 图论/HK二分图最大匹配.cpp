@@ -55,38 +55,22 @@ struct HK {
         return shortest != LLONG_MAX;
     }
 
-    // 在当前分层图上找一条最短增广路；非递归写法防爆栈。
-    bool dfs(int s) {
-        vector<int> path = {s};
-        while (!path.empty()) {
-            int u = path.back();
-            bool go = false;
-            while (cur[u] < (int)e[u].size()) {
-                int v = e[u][cur[u]++];
-                int w = mr[v];
+    // 在当前分层图上递归 DFS，寻找最短增广路。
+    // cur[u] 是当前弧，避免同一轮重复枚举无效边。
+    bool dfs(int u) {
+        for (int &i = cur[u]; i < (int)e[u].size(); i++) {
+            int v = e[u][i];
+            int w = mr[v];
 
-                // 抵达未匹配右部点，逆序调整整条增广路的匹配边。
-                if (!w && dis[u] + 1 == shortest) {
-                    for (int i = (int)path.size() - 1; i >= 0; i--) {
-                        int old = ml[path[i]];
-                        ml[path[i]] = v;
-                        mr[v] = path[i];
-                        v = old;
-                    }
-                    return true;
-                }
-
-                if (w && dis[w] == dis[u] + 1) {
-                    path.push_back(w);
-                    go = true;
-                    break;
-                }
-            }
-            if (!go) {
-                dis[u] = -1;
-                path.pop_back();
+            // v 未匹配，或它原来的搭档 w 能沿下一层找到新匹配。
+            if ((!w && dis[u] + 1 == shortest) ||
+                (w && dis[w] == dis[u] + 1 && dfs(w))) {
+                ml[u] = v;
+                mr[v] = u;
+                return true;
             }
         }
+        dis[u] = -1;  // 当前 u 找不到增广路，剪枝
         return false;
     }
 
