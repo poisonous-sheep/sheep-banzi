@@ -1,0 +1,2123 @@
+[
+  {
+    "topic": "普通线段树",
+    "id": "P1816",
+    "url": "https://www.luogu.com.cn/problem/P1816",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_04.txt",
+      "title": "P1816 忠诚 - 洛谷 (https://www.luogu.com.cn/problem/P1816)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "普通线段树",
+    "id": "P1198",
+    "url": "https://www.luogu.com.cn/problem/P1198",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_04.txt",
+      "title": "P1198 [JSOI2008] 最大数 - 洛谷 (https://www.luogu.com.cn/problem/P1198)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "区间加线段树",
+    "id": "P3372",
+    "url": "https://www.luogu.com.cn/problem/P3372",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_07.txt",
+      "title": "P3372 〖模板〗线段树 1 - 洛谷 (https://www.luogu.com.cn/problem/P3372)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "区间加线段树",
+    "id": "P3374",
+    "url": "https://www.luogu.com.cn/problem/P3374",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_07.txt",
+      "title": "P3374 〖模板〗树状数组 1 - 洛谷 (https://www.luogu.com.cn/problem/P3374)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "并查集",
+    "id": "practice2_a",
+    "url": "https://atcoder.jp/contests/practice2/tasks/practice2_a",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "url": "https://atcoder.jp/contests/practice2/tasks/practice2_a",
+      "http_status": 200,
+      "title": "A - Disjoint Set Union",
+      "statement_detected": true,
+      "bytes": 15963,
+      "cache": ".work_review\\handbook\\sources\\2eb12341f768b594.html",
+      "sha256": "cde0212eb6c14616ea47c125b08dbab528627ea0d698e259d3af75983cc07a0d",
+      "content_type": "text/html; charset=utf-8"
+    }
+  },
+  {
+    "topic": "并查集",
+    "id": "ABC120D",
+    "url": "https://atcoder.jp/contests/abc120/tasks/abc120_d",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "url": "https://atcoder.jp/contests/abc120/tasks/abc120_d",
+      "http_status": 200,
+      "title": "D - Decayed Bridges",
+      "statement_detected": true,
+      "bytes": 19110,
+      "cache": ".work_review\\handbook\\sources\\67d559ba3cbf3a66.html",
+      "sha256": "68ae47eac665c71ba2c1929db1922801fe86bcafbc50d67ae696164235763463",
+      "content_type": "text/html; charset=utf-8"
+    }
+  },
+  {
+    "topic": "01Trie",
+    "id": "CF706D",
+    "url": "https://codeforces.com/problemset/problem/706/D",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_02.txt",
+      "title": "Problem - 706D - Codeforces (https://codeforces.com/problemset/problem/706/D)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "01Trie",
+    "id": "P4551",
+    "url": "https://www.luogu.com.cn/problem/P4551",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_09.txt",
+      "title": "P4551 最长异或路径 - 洛谷 (https://www.luogu.com.cn/problem/P4551)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "ST表",
+    "id": "P3865",
+    "url": "https://www.luogu.com.cn/problem/P3865",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_08.txt",
+      "title": "P3865 〖模板〗ST 表 & RMQ 问题 - 洛谷 (https://www.luogu.com.cn/problem/P3865)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "ST表",
+    "id": "P2880",
+    "url": "https://www.luogu.com.cn/problem/P2880",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_06.txt",
+      "title": "P2880 [USACO07JAN] Balanced Lineup G - 洛谷 (https://www.luogu.com.cn/problem/P2880)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "动态开点权值线段树",
+    "id": "ABC253C",
+    "url": "https://atcoder.jp/contests/abc253/tasks/abc253_c",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "url": "https://atcoder.jp/contests/abc253/tasks/abc253_c",
+      "http_status": 200,
+      "title": "C - Max - Min Query",
+      "statement_detected": true,
+      "bytes": 21258,
+      "cache": ".work_review\\handbook\\sources\\969d69c8de7ea49d.html",
+      "sha256": "5c84382b248f5456ebf6de503c8d269eaef8e8bb91572876e15b6d42780f690c",
+      "content_type": "text/html; charset=utf-8"
+    }
+  },
+  {
+    "topic": "动态开点权值线段树",
+    "id": "P3369",
+    "url": "https://www.luogu.com.cn/problem/P3369",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_07.txt",
+      "title": "P3369 〖模板〗普通平衡树 - 洛谷 (https://www.luogu.com.cn/problem/P3369)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "动态开点权值线段树",
+    "id": "ABC241D",
+    "url": "https://atcoder.jp/contests/abc241/tasks/abc241_d",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "url": "https://atcoder.jp/contests/abc241/tasks/abc241_d",
+      "http_status": 200,
+      "title": "D - Sequence Query",
+      "statement_detected": true,
+      "bytes": 19852,
+      "cache": ".work_review\\handbook\\sources\\6bc84ced896bc6f7.html",
+      "sha256": "cd67155678232517c18d9b38e3ab420af22b35832aec1783db97b766a99bb013",
+      "content_type": "text/html; charset=utf-8"
+    }
+  },
+  {
+    "topic": "权值线段树合并与分裂",
+    "id": "P5494",
+    "url": "https://www.luogu.com.cn/problem/P5494",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_10.txt",
+      "title": "P5494 〖模板〗线段树分裂 - 洛谷 (https://www.luogu.com.cn/problem/P5494)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "权值线段树合并与分裂",
+    "id": "P3224",
+    "url": "https://www.luogu.com.cn/problem/P3224",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_07.txt",
+      "title": "P3224 [HNOI2012] 永无乡 - 洛谷 (https://www.luogu.com.cn/problem/P3224)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "势能线段树",
+    "id": "P4145",
+    "url": "https://www.luogu.com.cn/problem/P4145",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_09.txt",
+      "title": "P4145 上帝造题的七分钟 2 / 花神游历各国 - 洛谷 (https://www.luogu.com.cn/problem/P4145)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "势能线段树",
+    "id": "CF438D",
+    "url": "https://codeforces.com/problemset/problem/438/D",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_02.txt",
+      "title": "Problem - 438D - Codeforces (https://codeforces.com/problemset/problem/438/D)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "线段树优化建图",
+    "id": "CF786B",
+    "url": "https://codeforces.com/problemset/problem/786/B",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_02.txt",
+      "title": "Problem - 786B - Codeforces (https://codeforces.com/problemset/problem/786/B)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "线段树优化建图",
+    "id": "P6348",
+    "url": "https://www.luogu.com.cn/problem/P6348",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_10.txt",
+      "title": "P6348 [PA 2011] Journeys - 洛谷 (https://www.luogu.com.cn/problem/P6348)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "Hopcroft-Karp匹配",
+    "id": "P3386",
+    "url": "https://www.luogu.com.cn/problem/P3386",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_08.txt",
+      "title": "P3386 〖模板〗二分图最大匹配 - 洛谷 (https://www.luogu.com.cn/problem/P3386)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "Hopcroft-Karp匹配",
+    "id": "practice2_d",
+    "url": "https://atcoder.jp/contests/practice2/tasks/practice2_d",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "url": "https://atcoder.jp/contests/practice2/tasks/practice2_d",
+      "http_status": 200,
+      "title": "D - Maxflow",
+      "statement_detected": true,
+      "bytes": 19041,
+      "cache": ".work_review\\handbook\\sources\\8c3a8f3231c3c231.html",
+      "sha256": "22003f621272e8300d4c0296da624f272b60e59ab7f811a2e364d68a4a447492",
+      "content_type": "text/html; charset=utf-8"
+    }
+  },
+  {
+    "topic": "DFS增广路匹配",
+    "id": "P3386",
+    "url": "https://www.luogu.com.cn/problem/P3386",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_08.txt",
+      "title": "P3386 〖模板〗二分图最大匹配 - 洛谷 (https://www.luogu.com.cn/problem/P3386)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "DFS增广路匹配",
+    "id": "practice2_d",
+    "url": "https://atcoder.jp/contests/practice2/tasks/practice2_d",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "url": "https://atcoder.jp/contests/practice2/tasks/practice2_d",
+      "http_status": 200,
+      "title": "D - Maxflow",
+      "statement_detected": true,
+      "bytes": 19041,
+      "cache": ".work_review\\handbook\\sources\\8c3a8f3231c3c231.html",
+      "sha256": "22003f621272e8300d4c0296da624f272b60e59ab7f811a2e364d68a4a447492",
+      "content_type": "text/html; charset=utf-8"
+    }
+  },
+  {
+    "topic": "二分图染色",
+    "id": "ABC327D",
+    "url": "https://atcoder.jp/contests/abc327/tasks/abc327_d",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "url": "https://atcoder.jp/contests/abc327/tasks/abc327_d",
+      "http_status": 200,
+      "title": "D - Good Tuple Problem",
+      "statement_detected": true,
+      "bytes": 19921,
+      "cache": ".work_review\\handbook\\sources\\47e7f6e78e8834e7.html",
+      "sha256": "175d16b5e72a1100a7b687415f436f49599783ca2fe2f89dc38ffdee70e236f5",
+      "content_type": "text/html; charset=utf-8"
+    }
+  },
+  {
+    "topic": "二分图染色",
+    "id": "P1330",
+    "url": "https://www.luogu.com.cn/problem/P1330",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_04.txt",
+      "title": "P1330 封锁阳光大学 - 洛谷 (https://www.luogu.com.cn/problem/P1330)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "倍增LCA",
+    "id": "P3379",
+    "url": "https://www.luogu.com.cn/problem/P3379",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_07.txt",
+      "title": "P3379 〖模板〗最近公共祖先（LCA） - 洛谷 (https://www.luogu.com.cn/problem/P3379)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "倍增LCA",
+    "id": "CF1328E",
+    "url": "https://codeforces.com/problemset/problem/1328/E",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_02.txt",
+      "title": "Problem - 1328E - Codeforces (https://codeforces.com/problemset/problem/1328/E)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "Kruskal重构树",
+    "id": "P2245",
+    "url": "https://www.luogu.com.cn/problem/P2245",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_05.txt",
+      "title": "P2245 星际导航 - 洛谷 (https://www.luogu.com.cn/problem/P2245)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "Kruskal重构树",
+    "id": "P1967",
+    "url": "https://www.luogu.com.cn/problem/P1967",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_05.txt",
+      "title": "P1967 [NOIP 2013 提高组] 货车运输 - 洛谷 (https://www.luogu.com.cn/problem/P1967)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "Tarjan强连通分量",
+    "id": "P2341",
+    "url": "https://www.luogu.com.cn/problem/P2341",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_05.txt",
+      "title": "P2341 [USACO03FALL / HAOI2006] 受欢迎的牛 G - 洛谷 (https://www.luogu.com.cn/problem/P2341)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "Tarjan强连通分量",
+    "id": "P3387",
+    "url": "https://www.luogu.com.cn/problem/P3387",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_08.txt",
+      "title": "P3387 〖模板〗缩点 / 强连通分量 - 洛谷 (https://www.luogu.com.cn/problem/P3387)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "Kosaraju强连通分量",
+    "id": "P2341",
+    "url": "https://www.luogu.com.cn/problem/P2341",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_05.txt",
+      "title": "P2341 [USACO03FALL / HAOI2006] 受欢迎的牛 G - 洛谷 (https://www.luogu.com.cn/problem/P2341)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "Kosaraju强连通分量",
+    "id": "P3387",
+    "url": "https://www.luogu.com.cn/problem/P3387",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_08.txt",
+      "title": "P3387 〖模板〗缩点 / 强连通分量 - 洛谷 (https://www.luogu.com.cn/problem/P3387)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "割边",
+    "id": "P1656",
+    "url": "https://www.luogu.com.cn/problem/P1656",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_04.txt",
+      "title": "P1656 炸铁路 - 洛谷 (https://www.luogu.com.cn/problem/P1656)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "割边",
+    "id": "CF118E",
+    "url": "https://codeforces.com/problemset/problem/118/E",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_01.txt",
+      "title": "Problem - 118E - Codeforces (https://codeforces.com/problemset/problem/118/E)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "割点",
+    "id": "P3388",
+    "url": "https://www.luogu.com.cn/problem/P3388",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_08.txt",
+      "title": "P3388 〖模板〗割点（割顶） - 洛谷 (https://www.luogu.com.cn/problem/P3388)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "割点",
+    "id": "P3469",
+    "url": "https://www.luogu.com.cn/problem/P3469",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_08.txt",
+      "title": "P3469 [POI 2008] BLO-Blockade - 洛谷 (https://www.luogu.com.cn/problem/P3469)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "边双连通分量",
+    "id": "P8436",
+    "url": "https://www.luogu.com.cn/problem/P8436",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_10.txt",
+      "title": "P8436 〖模板〗边双连通分量 - 洛谷 (https://www.luogu.com.cn/problem/P8436)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "边双连通分量",
+    "id": "P2860",
+    "url": "https://www.luogu.com.cn/problem/P2860",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_06.txt",
+      "title": "P2860 [USACO06JAN] Redundant Paths G - 洛谷 (https://www.luogu.com.cn/problem/P2860)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "点双连通分量",
+    "id": "P8435",
+    "url": "https://www.luogu.com.cn/problem/P8435",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_10.txt",
+      "title": "P8435 〖模板〗点双连通分量 - 洛谷 (https://www.luogu.com.cn/problem/P8435)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "点双连通分量",
+    "id": "P3225",
+    "url": "https://www.luogu.com.cn/problem/P3225",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_07.txt",
+      "title": "P3225 [ICPC 2011 WF / HNOI2012] 矿场搭建 - 洛谷 (https://www.luogu.com.cn/problem/P3225)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "2-SAT",
+    "id": "P4782",
+    "url": "https://www.luogu.com.cn/problem/P4782",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_10.txt",
+      "title": "P4782 〖模板〗2-SAT - 洛谷 (https://www.luogu.com.cn/problem/P4782)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "2-SAT",
+    "id": "P4171",
+    "url": "https://www.luogu.com.cn/problem/P4171",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_09.txt",
+      "title": "P4171 [JSOI2010] 满汉全席 - 洛谷 (https://www.luogu.com.cn/problem/P4171)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "Dinic最大流",
+    "id": "P3376",
+    "url": "https://www.luogu.com.cn/problem/P3376",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_07.txt",
+      "title": "P3376 〖模板〗网络最大流 - 洛谷 (https://www.luogu.com.cn/problem/P3376)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "Dinic最大流",
+    "id": "P2763",
+    "url": "https://www.luogu.com.cn/problem/P2763",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_06.txt",
+      "title": "P2763 试题库问题 - 洛谷 (https://www.luogu.com.cn/problem/P2763)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "Prim最小生成树",
+    "id": "P3366",
+    "url": "https://www.luogu.com.cn/problem/P3366",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_07.txt",
+      "title": "P3366 〖模板〗最小生成树 - 洛谷 (https://www.luogu.com.cn/problem/P3366)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "Prim最小生成树",
+    "id": "ABC065D",
+    "url": "https://atcoder.jp/contests/abc065/tasks/arc076_b",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "url": "https://atcoder.jp/contests/abc065/tasks/arc076_b",
+      "http_status": 200,
+      "title": "D - Built?",
+      "statement_detected": true,
+      "bytes": 17480,
+      "cache": ".work_review\\handbook\\sources\\1cbd0e931108d0e8.html",
+      "sha256": "d9e979e81a9d14acb1f4caeb6d9f275f7488602e90b9bcbcadef991db58155eb",
+      "content_type": "text/html; charset=utf-8"
+    }
+  },
+  {
+    "topic": "拓扑排序",
+    "id": "P1137",
+    "url": "https://www.luogu.com.cn/problem/P1137",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_03.txt",
+      "title": "P1137 旅行计划 - 洛谷 (https://www.luogu.com.cn/problem/P1137)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "拓扑排序",
+    "id": "ABC223D",
+    "url": "https://atcoder.jp/contests/abc223/tasks/abc223_d",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "url": "https://atcoder.jp/contests/abc223/tasks/abc223_d",
+      "http_status": 200,
+      "title": "D - Restricted Permutation",
+      "statement_detected": true,
+      "bytes": 17352,
+      "cache": ".work_review\\handbook\\sources\\502b2d7514158aac.html",
+      "sha256": "58d5384859a106af0f5287bd5f338dc31cde29596425f84be8a67bfe2582953c",
+      "content_type": "text/html; charset=utf-8"
+    }
+  },
+  {
+    "topic": "有向欧拉路径",
+    "id": "P7771",
+    "url": "https://www.luogu.com.cn/problem/P7771",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_10.txt",
+      "title": "P7771 〖模板〗欧拉路径 - 洛谷 (https://www.luogu.com.cn/problem/P7771)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "有向欧拉路径",
+    "id": "CF508D",
+    "url": "https://codeforces.com/contest/508/problem/D",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_00.txt",
+      "title": "Problem - D - Codeforces (https://codeforces.com/contest/508/problem/D)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "无向欧拉路径",
+    "id": "P2731",
+    "url": "https://www.luogu.com.cn/problem/P2731",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_06.txt",
+      "title": "P2731 [USACO3.3] 骑马修栅栏 Riding the Fences - 洛谷 (https://www.luogu.com.cn/problem/P2731)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "无向欧拉路径",
+    "id": "P1341",
+    "url": "https://www.luogu.com.cn/problem/P1341",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_04.txt",
+      "title": "P1341 无序字母对 - 洛谷 (https://www.luogu.com.cn/problem/P1341)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "差分约束",
+    "id": "P5960",
+    "url": "https://www.luogu.com.cn/problem/P5960",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_10.txt",
+      "title": "P5960 〖模板〗差分约束 - 洛谷 (https://www.luogu.com.cn/problem/P5960)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "差分约束",
+    "id": "P3275",
+    "url": "https://www.luogu.com.cn/problem/P3275",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_07.txt",
+      "title": "P3275 [SCOI2011] 糖果 - 洛谷 (https://www.luogu.com.cn/problem/P3275)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "扩展欧几里得",
+    "id": "P1082",
+    "url": "https://www.luogu.com.cn/problem/P1082",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_03.txt",
+      "title": "P1082 [NOIP 2012 提高组] 同余方程 - 洛谷 (https://www.luogu.com.cn/problem/P1082)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "扩展欧几里得",
+    "id": "ABC186E",
+    "url": "https://atcoder.jp/contests/abc186/tasks/abc186_e",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "url": "https://atcoder.jp/contests/abc186/tasks/abc186_e",
+      "http_status": 200,
+      "title": "E - Throne",
+      "statement_detected": true,
+      "bytes": 18280,
+      "cache": ".work_review\\handbook\\sources\\36bea05e0fee824c.html",
+      "sha256": "61e5688ed5233ff4d74bb4dc632e00c6b84b98f92f3da69ce8ed4ad251e3865b",
+      "content_type": "text/html; charset=utf-8"
+    }
+  },
+  {
+    "topic": "中国剩余定理",
+    "id": "P1495",
+    "url": "https://www.luogu.com.cn/problem/P1495",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_04.txt",
+      "title": "P1495 〖模板〗中国剩余定理（CRT）/ 曹冲养猪 - 洛谷 (https://www.luogu.com.cn/problem/P1495)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "中国剩余定理",
+    "id": "P4777",
+    "url": "https://www.luogu.com.cn/problem/P4777",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_10.txt",
+      "title": "P4777 〖模板〗扩展中国剩余定理（EXCRT） - 洛谷 (https://www.luogu.com.cn/problem/P4777)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "素数模组合数",
+    "id": "ABC034C",
+    "url": "https://atcoder.jp/contests/abc034/tasks/abc034_c",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "url": "https://atcoder.jp/contests/abc034/tasks/abc034_c",
+      "http_status": 200,
+      "title": "C - 経路",
+      "statement_detected": true,
+      "bytes": 16028,
+      "cache": ".work_review\\handbook\\sources\\e737672eb3578273.html",
+      "sha256": "8f9cc04b0822ba04373b05363f14130de682182ddf5caa7ba746745963267b60",
+      "content_type": "text/html; charset=utf-8"
+    }
+  },
+  {
+    "topic": "素数模组合数",
+    "id": "ABC145D",
+    "url": "https://atcoder.jp/contests/abc145/tasks/abc145_d",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "url": "https://atcoder.jp/contests/abc145/tasks/abc145_d",
+      "http_status": 200,
+      "title": "D - Knight",
+      "statement_detected": true,
+      "bytes": 17662,
+      "cache": ".work_review\\handbook\\sources\\ebba72b3137e2d52.html",
+      "sha256": "8815fec25a2e49794ca46a49a4ea0835b6a513ea53ebbd2c2b7c9c4ef56e2df0",
+      "content_type": "text/html; charset=utf-8"
+    }
+  },
+  {
+    "topic": "Lucas定理",
+    "id": "P3807",
+    "url": "https://www.luogu.com.cn/problem/P3807",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_08.txt",
+      "title": "P3807 〖模板〗卢卡斯定理 / Lucas 定理 - 洛谷 (https://www.luogu.com.cn/problem/P3807)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "Lucas定理",
+    "id": "P1313",
+    "url": "https://www.luogu.com.cn/problem/P1313",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_04.txt",
+      "title": "P1313 [NOIP 2011 提高组] 计算系数 - 洛谷 (https://www.luogu.com.cn/problem/P1313)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "整除分块",
+    "id": "P1403",
+    "url": "https://www.luogu.com.cn/problem/P1403",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_04.txt",
+      "title": "P1403 [AHOI2005] 约数研究 - 洛谷 (https://www.luogu.com.cn/problem/P1403)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "整除分块",
+    "id": "P2424",
+    "url": "https://www.luogu.com.cn/problem/P2424",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\fallback.txt",
+      "title": "P2424 约数和 - 洛谷 (https://www.luogu.com.cn/problem/P2424)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "扩展Lucas",
+    "id": "P4720",
+    "url": "https://www.luogu.com.cn/problem/P4720",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_09.txt",
+      "title": "P4720 〖模板〗扩展卢卡斯定理 / exLucas - 洛谷 (https://www.luogu.com.cn/problem/P4720)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "扩展Lucas",
+    "id": "P2183",
+    "url": "https://www.luogu.com.cn/problem/P2183",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_05.txt",
+      "title": "P2183 [国家集训队] 礼物 - 洛谷 (https://www.luogu.com.cn/problem/P2183)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "扩展欧拉与指数塔",
+    "id": "P4139",
+    "url": "https://www.luogu.com.cn/problem/P4139",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_09.txt",
+      "title": "P4139 上帝与集合的正确用法 - 洛谷 (https://www.luogu.com.cn/problem/P4139)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "扩展欧拉与指数塔",
+    "id": "CF906D",
+    "url": "https://codeforces.com/problemset/problem/906/D",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_03.txt",
+      "title": "Problem - 906D - Codeforces (https://codeforces.com/problemset/problem/906/D)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "原根",
+    "id": "P6091",
+    "url": "https://www.luogu.com.cn/problem/P6091",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_10.txt",
+      "title": "P6091 〖模板〗原根 - 洛谷 (https://www.luogu.com.cn/problem/P6091)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "原根",
+    "id": "CF284A",
+    "url": "https://codeforces.com/problemset/problem/284/A",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_02.txt",
+      "title": "Problem - 284A - Codeforces (https://codeforces.com/problemset/problem/284/A)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "BSGS离散对数",
+    "id": "P3846",
+    "url": "https://www.luogu.com.cn/problem/P3846",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_08.txt",
+      "title": "P3846 〖模板〗BSGS / [TJOI2007] 可爱的质数 - 洛谷 (https://www.luogu.com.cn/problem/P3846)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "BSGS离散对数",
+    "id": "P2485",
+    "url": "https://www.luogu.com.cn/problem/P2485",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_06.txt",
+      "title": "P2485 [SDOI2011] 计算器 - 洛谷 (https://www.luogu.com.cn/problem/P2485)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "珂朵莉树",
+    "id": "CF896C",
+    "url": "https://codeforces.com/contest/896/problem/C",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_01.txt",
+      "title": "Problem - C - Codeforces (https://codeforces.com/contest/896/problem/C)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "珂朵莉树",
+    "id": "P3740",
+    "url": "https://www.luogu.com.cn/problem/P3740",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_08.txt",
+      "title": "P3740 [HAOI2014] 贴海报 - 洛谷 (https://www.luogu.com.cn/problem/P3740)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "离线二维数点",
+    "id": "P2163",
+    "url": "https://www.luogu.com.cn/problem/P2163",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_05.txt",
+      "title": "P2163 [SHOI2007] 园丁的烦恼 - 洛谷 (https://www.luogu.com.cn/problem/P2163)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "离线二维数点",
+    "id": "P1972",
+    "url": "https://www.luogu.com.cn/problem/P1972",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_05.txt",
+      "title": "P1972 [SDOI2009] HH 的项链 - 洛谷 (https://www.luogu.com.cn/problem/P1972)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "启发式合并",
+    "id": "P3201",
+    "url": "https://www.luogu.com.cn/problem/P3201",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_07.txt",
+      "title": "P3201 [HNOI2009] 梦幻布丁 - 洛谷 (https://www.luogu.com.cn/problem/P3201)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "启发式合并",
+    "id": "CF600E",
+    "url": "https://codeforces.com/problemset/problem/600/E",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_02.txt",
+      "title": "Problem - 600E - Codeforces (https://codeforces.com/problemset/problem/600/E)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "DSU on Tree",
+    "id": "CF600E",
+    "url": "https://codeforces.com/problemset/problem/600/E",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_02.txt",
+      "title": "Problem - 600E - Codeforces (https://codeforces.com/problemset/problem/600/E)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "DSU on Tree",
+    "id": "CF375D",
+    "url": "https://codeforces.com/contest/375/problem/D",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_00.txt",
+      "title": "Problem - D - Codeforces (https://codeforces.com/contest/375/problem/D)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "步长根号分治",
+    "id": "CF1207F",
+    "url": "https://codeforces.com/problemset/problem/1207/F",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_01.txt",
+      "title": "Problem - 1207F - Codeforces (https://codeforces.com/problemset/problem/1207/F)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "步长根号分治",
+    "id": "CF797E",
+    "url": "https://codeforces.com/contest/797/problem/E",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_01.txt",
+      "title": "Problem - E - Codeforces (https://codeforces.com/contest/797/problem/E)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "KMP字符串匹配",
+    "id": "P3375",
+    "url": "https://www.luogu.com.cn/problem/P3375",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_07.txt",
+      "title": "P3375 〖模板〗KMP - 洛谷 (https://www.luogu.com.cn/problem/P3375)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "KMP字符串匹配",
+    "id": "CF471D",
+    "url": "https://codeforces.com/contest/471/problem/D",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_00.txt",
+      "title": "Problem - D - Codeforces (https://codeforces.com/contest/471/problem/D)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "线性基",
+    "id": "P3812",
+    "url": "https://www.luogu.com.cn/problem/P3812",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_08.txt",
+      "title": "P3812 〖模板〗线性基 - 洛谷 (https://www.luogu.com.cn/problem/P3812)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "线性基",
+    "id": "P4151",
+    "url": "https://www.luogu.com.cn/problem/P4151",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_09.txt",
+      "title": "P4151 [WC2011] 最大 XOR 和路径 - 洛谷 (https://www.luogu.com.cn/problem/P4151)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "线性基",
+    "id": "P4570",
+    "url": "https://www.luogu.com.cn/problem/P4570",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_09.txt",
+      "title": "P4570 [BJWC2011] 元素 - 洛谷 (https://www.luogu.com.cn/problem/P4570)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "点直线与线段几何",
+    "id": "CGL_1_A",
+    "url": "https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=CGL_1_A",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_03.txt",
+      "title": "judge.u-aizu.ac.jp (https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=CGL_1_A)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "点直线与线段几何",
+    "id": "CGL_1_B",
+    "url": "https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=CGL_1_B",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_03.txt",
+      "title": "judge.u-aizu.ac.jp (https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=CGL_1_B)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "极角排序",
+    "id": "CF598C",
+    "url": "https://codeforces.com/contest/598/problem/C",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_01.txt",
+      "title": "Problem - C - Codeforces (https://codeforces.com/contest/598/problem/C)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "极角排序",
+    "id": "ABC139F",
+    "url": "https://atcoder.jp/contests/abc139/tasks/abc139_f",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "url": "https://atcoder.jp/contests/abc139/tasks/abc139_f",
+      "http_status": 200,
+      "title": "F - Engines",
+      "statement_detected": true,
+      "bytes": 24435,
+      "cache": ".work_review\\handbook\\sources\\3dc524be06291e44.html",
+      "sha256": "c38c55ef6ba428719ad5aa06b264c92fae42bdf58a757838b5e3ae13d8d4166b",
+      "content_type": "text/html; charset=utf-8"
+    }
+  },
+  {
+    "topic": "度数根号分治",
+    "id": "ABC219G",
+    "url": "https://atcoder.jp/contests/abc219/tasks/abc219_g",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "url": "https://atcoder.jp/contests/abc219/tasks/abc219_g",
+      "http_status": 200,
+      "title": "G - Propagation",
+      "statement_detected": true,
+      "bytes": 22586,
+      "cache": ".work_review\\handbook\\sources\\5c20514268258321.html",
+      "sha256": "9f8df5678c6cdee1f24a0d6bac1b84c154be010d94f324d91e74ead97170d420",
+      "content_type": "text/html; charset=utf-8"
+    }
+  },
+  {
+    "topic": "度数根号分治",
+    "id": "Typical90-083",
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_ce",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_ce",
+      "http_status": 200,
+      "title": "083 - Colorful Graph（★6）",
+      "statement_detected": true,
+      "bytes": 17655,
+      "cache": ".work_review\\handbook\\sources\\e641ff7c7819dadf.html",
+      "sha256": "67e78f87d190496a08db610fae9c2b02b86d093a24c3bcd684ed0247ef06ed87",
+      "content_type": "text/html; charset=utf-8"
+    }
+  },
+  {
+    "topic": "区间石子合并",
+    "id": "DP_N",
+    "url": "https://atcoder.jp/contests/dp/tasks/dp_n",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "url": "https://atcoder.jp/contests/dp/tasks/dp_n",
+      "http_status": 200,
+      "title": "N - Slimes",
+      "statement_detected": true,
+      "bytes": 20675,
+      "cache": ".work_review\\handbook\\sources\\77db734cdd5e56b3.html",
+      "sha256": "2b065eb30122604d746f86e850a385792841bb4263cde0376a3e201786dc91dd",
+      "content_type": "text/html; charset=utf-8"
+    }
+  },
+  {
+    "topic": "区间石子合并",
+    "id": "P1880",
+    "url": "https://www.luogu.com.cn/problem/P1880",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_05.txt",
+      "title": "P1880 [NOI1995] 石子合并 - 洛谷 (https://www.luogu.com.cn/problem/P1880)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "区间同色配对与涂色",
+    "id": "CF1132F",
+    "url": "https://codeforces.com/contest/1132/problem/F",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_00.txt",
+      "title": "Problem - F - Codeforces (https://codeforces.com/contest/1132/problem/F)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "区间同色配对与涂色",
+    "id": "P4170",
+    "url": "https://www.luogu.com.cn/problem/P4170",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_09.txt",
+      "title": "P4170 [CQOI2007] 涂色 - 洛谷 (https://www.luogu.com.cn/problem/P4170)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "括号计数与无歧义区间DP",
+    "id": "P7914",
+    "url": "https://www.luogu.com.cn/problem/P7914",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_10.txt",
+      "title": "P7914 [CSP-S 2021] 括号序列 - 洛谷 (https://www.luogu.com.cn/problem/P7914)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "括号计数与无歧义区间DP",
+    "id": "ABC312D",
+    "url": "https://atcoder.jp/contests/abc312/tasks/abc312_d",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "url": "https://atcoder.jp/contests/abc312/tasks/abc312_d",
+      "http_status": 200,
+      "title": "D - Count Bracket Sequences",
+      "statement_detected": true,
+      "bytes": 18818,
+      "cache": ".work_review\\handbook\\sources\\117478cb6584b845.html",
+      "sha256": "78ddf8d69d0bdb8d586df5d8d9ce3a2761a3f13e077a1cb51140a0f79f722dc0",
+      "content_type": "text/html; charset=utf-8"
+    }
+  },
+  {
+    "topic": "数位DP与有限状态",
+    "id": "P2657",
+    "url": "https://www.luogu.com.cn/problem/P2657",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_06.txt",
+      "title": "P2657 [SCOI2009] windy 数 - 洛谷 (https://www.luogu.com.cn/problem/P2657)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "数位DP与有限状态",
+    "id": "DP_S",
+    "url": "https://atcoder.jp/contests/dp/tasks/dp_s",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "url": "https://atcoder.jp/contests/dp/tasks/dp_s",
+      "http_status": 200,
+      "title": "S - Digit Sum",
+      "statement_detected": true,
+      "bytes": 16505,
+      "cache": ".work_review\\handbook\\sources\\5491de078b0674cb.html",
+      "sha256": "61a57cea7119330b5ec951307c99bd87edfe3dc07bcf18c48914defd5d065f76",
+      "content_type": "text/html; charset=utf-8"
+    }
+  },
+  {
+    "topic": "数位构造与不同数位限制",
+    "id": "CF1560F1",
+    "url": "https://codeforces.com/contest/1560/problem/F1",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_00.txt",
+      "title": "Problem - F1 - Codeforces (https://codeforces.com/contest/1560/problem/F1)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "数位构造与不同数位限制",
+    "id": "CF1560F2",
+    "url": "https://codeforces.com/contest/1560/problem/F2",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_00.txt",
+      "title": "Problem - F2 - Codeforces (https://codeforces.com/contest/1560/problem/F2)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "数位背包",
+    "id": "P3188",
+    "url": "https://www.luogu.com.cn/problem/P3188",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_07.txt",
+      "title": "P3188 [HNOI2007] 梦幻岛宝珠 - 洛谷 (https://www.luogu.com.cn/problem/P3188)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "数位背包",
+    "id": "P1048",
+    "url": "https://www.luogu.com.cn/problem/P1048",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_03.txt",
+      "title": "P1048 [NOIP 2005 普及组] 采药 - 洛谷 (https://www.luogu.com.cn/problem/P1048)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "进位支付与有符号数位",
+    "id": "ABC231E",
+    "url": "https://atcoder.jp/contests/abc231/tasks/abc231_e",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "url": "https://atcoder.jp/contests/abc231/tasks/abc231_e",
+      "http_status": 200,
+      "title": "E - Minimal payments",
+      "statement_detected": true,
+      "bytes": 18809,
+      "cache": ".work_review\\handbook\\sources\\15c21e3b8db924ac.html",
+      "sha256": "c021ca515dd82e7a4307a23b67142028282af82148bb5006970c60241b953b19",
+      "content_type": "text/html; charset=utf-8"
+    }
+  },
+  {
+    "topic": "进位支付与有符号数位",
+    "id": "ABC155E",
+    "url": "https://atcoder.jp/contests/abc155/tasks/abc155_e",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "url": "https://atcoder.jp/contests/abc155/tasks/abc155_e",
+      "http_status": 200,
+      "title": "E - Payment",
+      "statement_detected": true,
+      "bytes": 18976,
+      "cache": ".work_review\\handbook\\sources\\4aec52696d16f04d.html",
+      "sha256": "326d38c8d67fa7a7be3d0e48687e667e629b0026766669967a29d977a6b510e8",
+      "content_type": "text/html; charset=utf-8"
+    }
+  },
+  {
+    "topic": "二进制位贡献与Popcount计数",
+    "id": "Gym102832D",
+    "url": "https://codeforces.com/gym/102832/problem/D",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_01.txt",
+      "title": "Problem - D - Codeforces (https://codeforces.com/gym/102832/problem/D)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "二进制位贡献与Popcount计数",
+    "id": "ABC356D",
+    "url": "https://atcoder.jp/contests/abc356/tasks/abc356_d",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "url": "https://atcoder.jp/contests/abc356/tasks/abc356_d",
+      "http_status": 200,
+      "title": "D - Masked Popcount",
+      "statement_detected": true,
+      "bytes": 20660,
+      "cache": ".work_review\\handbook\\sources\\33b938d51ac927b9.html",
+      "sha256": "7b40c302ba518688ed7d0fd2ff502d51771326d2dbef4078222eb379a77f5035",
+      "content_type": "text/html; charset=utf-8"
+    }
+  },
+  {
+    "topic": "二进制位贡献与Popcount计数",
+    "id": "P4317",
+    "url": "https://www.luogu.com.cn/problem/P4317",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_09.txt",
+      "title": "P4317 花神的数论题 - 洛谷 (https://www.luogu.com.cn/problem/P4317)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "树上最大连通块权和",
+    "id": "P1122",
+    "url": "https://www.luogu.com.cn/problem/P1122",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_03.txt",
+      "title": "P1122 最大子树和 - 洛谷 (https://www.luogu.com.cn/problem/P1122)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "树上最大连通块权和",
+    "id": "CF1324F",
+    "url": "https://codeforces.com/contest/1324/problem/F",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_00.txt",
+      "title": "Problem - F - Codeforces (https://codeforces.com/contest/1324/problem/F)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "子树合并背包",
+    "id": "P2014",
+    "url": "https://www.luogu.com.cn/problem/P2014",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_05.txt",
+      "title": "P2014 [CTSC1997] 选课 - 洛谷 (https://www.luogu.com.cn/problem/P2014)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "子树合并背包",
+    "id": "P1273",
+    "url": "https://www.luogu.com.cn/problem/P1273",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_04.txt",
+      "title": "P1273 [CHCI 2002 Final Exam #2] 有线电视网 - 洛谷 (https://www.luogu.com.cn/problem/P1273)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "DFS序依赖背包",
+    "id": "P2014",
+    "url": "https://www.luogu.com.cn/problem/P2014",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_05.txt",
+      "title": "P2014 [CTSC1997] 选课 - 洛谷 (https://www.luogu.com.cn/problem/P2014)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "DFS序依赖背包",
+    "id": "P2515",
+    "url": "https://www.luogu.com.cn/problem/P2515",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_06.txt",
+      "title": "P2515 [HAOI2010] 软件安装 - 洛谷 (https://www.luogu.com.cn/problem/P2515)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "换根连通块计数",
+    "id": "DP_V",
+    "url": "https://atcoder.jp/contests/dp/tasks/dp_v",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "url": "https://atcoder.jp/contests/dp/tasks/dp_v",
+      "http_status": 200,
+      "title": "V - Subtree",
+      "statement_detected": true,
+      "bytes": 19454,
+      "cache": ".work_review\\handbook\\sources\\82a825d8b17f7af4.html",
+      "sha256": "b9986c2f38451ed8deb1d754a49338657e8c555611cba407b3788d2d3e3cb443",
+      "content_type": "text/html; charset=utf-8"
+    }
+  },
+  {
+    "topic": "换根连通块计数",
+    "id": "CF543D",
+    "url": "https://codeforces.com/contest/543/problem/D",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\fallback.txt",
+      "title": "Problem - 543D - Codeforces (https://codeforces.com/problemset/problem/543/D)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "树上距离分层计数",
+    "id": "CF1551F",
+    "url": "https://codeforces.com/contest/1551/problem/F",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_00.txt",
+      "title": "Problem - F - Codeforces (https://codeforces.com/contest/1551/problem/F)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "树上距离分层计数",
+    "id": "CF161D",
+    "url": "https://codeforces.com/contest/161/problem/D",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_00.txt",
+      "title": "Problem - D - Codeforces (https://codeforces.com/contest/161/problem/D)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "有上下界可行流与最大流",
+    "id": "CF510E",
+    "url": "https://codeforces.com/contest/510/problem/E",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\fallback.txt",
+      "title": "Problem - 510E - Codeforces (https://codeforces.com/problemset/problem/510/E)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "有上下界可行流与最大流",
+    "id": "P5192",
+    "url": "https://www.luogu.com.cn/problem/P5192",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_10.txt",
+      "title": "P5192 Shoot the Bullet | 东方文花帖 - 洛谷 (https://www.luogu.com.cn/problem/P5192)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "最小费用最大流",
+    "id": "P3381",
+    "url": "https://www.luogu.com.cn/problem/P3381",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_08.txt",
+      "title": "P3381 〖模板〗最小费用最大流 - 洛谷 (https://www.luogu.com.cn/problem/P3381)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "最小费用最大流",
+    "id": "P4015",
+    "url": "https://www.luogu.com.cn/problem/P4015",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_09.txt",
+      "title": "P4015 运输问题 - 洛谷 (https://www.luogu.com.cn/problem/P4015)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "最小割建模",
+    "id": "P2774",
+    "url": "https://www.luogu.com.cn/problem/P2774",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_06.txt",
+      "title": "P2774 方格取数问题 - 洛谷 (https://www.luogu.com.cn/problem/P2774)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "最小割建模",
+    "id": "P2762",
+    "url": "https://www.luogu.com.cn/problem/P2762",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_06.txt",
+      "title": "P2762 太空飞行计划问题 - 洛谷 (https://www.luogu.com.cn/problem/P2762)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "最小割建模",
+    "id": "P4126",
+    "url": "https://www.luogu.com.cn/problem/P4126",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_09.txt",
+      "title": "P4126 [AHOI2009] 最小割 - 洛谷 (https://www.luogu.com.cn/problem/P4126)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "启发式分治",
+    "id": "UVA1608",
+    "url": "https://onlinejudge.org/external/16/1608.pdf",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_03.txt",
+      "title": "(https://onlinejudge.org/external/16/1608.pdf)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "启发式分治",
+    "id": "CF1156E",
+    "url": "https://codeforces.com/contest/1156/problem/E",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\fallback.txt",
+      "title": "Problem - 1156E - Codeforces (https://codeforces.com/problemset/problem/1156/E)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "基环树最大权独立集",
+    "id": "P2607",
+    "url": "https://www.luogu.com.cn/problem/P2607",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_06.txt",
+      "title": "P2607 [ZJOI2008] 骑士 - 洛谷 (https://www.luogu.com.cn/problem/P2607)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "基环树最大权独立集",
+    "id": "P1453",
+    "url": "https://www.luogu.com.cn/problem/P1453",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_04.txt",
+      "title": "P1453 城市环路 - 洛谷 (https://www.luogu.com.cn/problem/P1453)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "基环树最长路径与断环直径",
+    "id": "P4381",
+    "url": "https://www.luogu.com.cn/problem/P4381",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_09.txt",
+      "title": "P4381 [IOI 2008] Island - 洛谷 (https://www.luogu.com.cn/problem/P4381)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "基环树最长路径与断环直径",
+    "id": "CF835F",
+    "url": "https://codeforces.com/contest/835/problem/F",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\fallback.txt",
+      "title": "Problem - 835F - Codeforces (https://codeforces.com/problemset/problem/835/F)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "自相似序列奇偶分治",
+    "id": "QOJ12409",
+    "url": "https://qoj.ac/problem/12409",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": "https://qoj.ac/download.php?id=12409&type=statement",
+      "title": "Bit Sequence",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "自相似序列奇偶分治",
+    "id": "ABC242D",
+    "url": "https://atcoder.jp/contests/abc242/tasks/abc242_d",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "url": "https://atcoder.jp/contests/abc242/tasks/abc242_d",
+      "http_status": 200,
+      "title": "D - ABC Transform",
+      "statement_detected": true,
+      "bytes": 18614,
+      "cache": ".work_review\\handbook\\sources\\0302246e864d00ed.html",
+      "sha256": "b8308e55d3bc031ffe5922420a2974715b03acdc3ce24f34daa152e6c3c57aa2",
+      "content_type": "text/html; charset=utf-8"
+    }
+  },
+  {
+    "topic": "树上不相交给定路径",
+    "id": "HDU5293",
+    "url": "https://acm.hdu.edu.cn/showproblem.php?pid=5293",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "url": "https://acm.hdu.edu.cn/showproblem.php?pid=5293",
+      "http_status": 200,
+      "title": "Problem - 5293",
+      "statement_detected": true,
+      "bytes": 8870,
+      "cache": ".work_review\\handbook\\sources\\b20b5d987e0f3184.html",
+      "sha256": "65d69b2921f00e663593fbeb73923d8a9d3778eb728a10eb7b4ef60928d3006d",
+      "content_type": "text/html;charset=GB2312"
+    }
+  },
+  {
+    "topic": "树上不相交给定路径",
+    "id": "HDU4912",
+    "url": "https://acm.hdu.edu.cn/showproblem.php?pid=4912",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "url": "https://acm.hdu.edu.cn/showproblem.php?pid=4912",
+      "http_status": 200,
+      "title": "Problem - 4912",
+      "statement_detected": true,
+      "bytes": 8671,
+      "cache": ".work_review\\handbook\\sources\\8c279ec6076cf751.html",
+      "sha256": "5a768d121d00b611870c212071d2ab32ee8b0097418ecb275b376471cb4037f2",
+      "content_type": "text/html;charset=GB2312"
+    }
+  },
+  {
+    "topic": "祖先路径最小费用覆盖",
+    "id": "CF1675D",
+    "url": "https://codeforces.com/problemset/problem/1675/D",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_02.txt",
+      "title": "Problem - 1675D - Codeforces (https://codeforces.com/problemset/problem/1675/D)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "祖先路径最小费用覆盖",
+    "id": "CF671D",
+    "url": "https://codeforces.com/problemset/problem/671/D",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_02.txt",
+      "title": "Problem - 671D - Codeforces (https://codeforces.com/problemset/problem/671/D)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "Crystalfly三状态树DP",
+    "id": "Gym103470H",
+    "url": "https://codeforces.com/gym/103470/problem/H",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_01.txt",
+      "title": "Problem - H - Codeforces (https://codeforces.com/gym/103470/problem/H)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "Kingdom军队遍历树DP",
+    "id": "Gym102769K",
+    "url": "https://codeforces.com/gym/102769/problem/K",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_01.txt",
+      "title": "Problem - K - Codeforces (https://codeforces.com/gym/102769/problem/K)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "区间强制对象分治",
+    "id": "P4766",
+    "url": "https://www.luogu.com.cn/problem/P4766",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_10.txt",
+      "title": "P4766 [CERC2014] Outer space invaders - 洛谷 (https://www.luogu.com.cn/problem/P4766)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "区间强制对象分治",
+    "id": "UVA10003",
+    "url": "https://onlinejudge.org/external/100/10003.pdf",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_03.txt",
+      "title": "(https://onlinejudge.org/external/100/10003.pdf)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "异或比较与最高不同位",
+    "id": "CF1720D1",
+    "url": "https://codeforces.com/problemset/problem/1720/D1",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_02.txt",
+      "title": "Problem - 1720D1 - Codeforces (https://codeforces.com/problemset/problem/1720/D1)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "异或比较与最高不同位",
+    "id": "CF276D",
+    "url": "https://codeforces.com/problemset/problem/276/D",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_02.txt",
+      "title": "Problem - 276D - Codeforces (https://codeforces.com/problemset/problem/276/D)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "前缀关系计数",
+    "id": "CF1398C",
+    "url": "https://codeforces.com/problemset/problem/1398/C",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_02.txt",
+      "title": "Problem - 1398C - Codeforces (https://codeforces.com/problemset/problem/1398/C)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "前缀关系计数",
+    "id": "ABC105D",
+    "url": "https://atcoder.jp/contests/abc105/tasks/abc105_d",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "url": "https://atcoder.jp/contests/abc105/tasks/abc105_d",
+      "http_status": 200,
+      "title": "D - Candy Distribution",
+      "statement_detected": true,
+      "bytes": 18937,
+      "cache": ".work_review\\handbook\\sources\\c8eb3f75030dd47e.html",
+      "sha256": "3558075255bb6ff0db6a3492141754a4e2142a8bed258177b7dbcf19639b6a6b",
+      "content_type": "text/html; charset=utf-8"
+    }
+  },
+  {
+    "topic": "同余差与GCD",
+    "id": "CF1920C",
+    "url": "https://codeforces.com/problemset/problem/1920/C",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_02.txt",
+      "title": "Problem - 1920C - Codeforces (https://codeforces.com/problemset/problem/1920/C)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "同余差与GCD",
+    "id": "ABC109C",
+    "url": "https://atcoder.jp/contests/abc109/tasks/abc109_c",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "url": "https://atcoder.jp/contests/abc109/tasks/abc109_c",
+      "http_status": 200,
+      "title": "C - Skip",
+      "statement_detected": true,
+      "bytes": 19405,
+      "cache": ".work_review\\handbook\\sources\\7c8842229c0bbb46.html",
+      "sha256": "a9efb23ee21a4b3399d0b8d6803ddd422b3848669b34723d2f9da2523217caf4",
+      "content_type": "text/html; charset=utf-8"
+    }
+  },
+  {
+    "topic": "莫比乌斯反演与线性筛",
+    "id": "P2522",
+    "url": "https://www.luogu.com.cn/problem/P2522",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_06.txt",
+      "title": "P2522 [HAOI2011] Problem b - 洛谷 (https://www.luogu.com.cn/problem/P2522)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "莫比乌斯反演与线性筛",
+    "id": "P3455",
+    "url": "https://www.luogu.com.cn/problem/P3455",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_08.txt",
+      "title": "P3455 [POI 2007] ZAP-Queries - 洛谷 (https://www.luogu.com.cn/problem/P3455)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "互质集合与GCD分类计数",
+    "id": "CF803F",
+    "url": "https://codeforces.com/contest/803/problem/F",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_01.txt",
+      "title": "Problem - F - Codeforces (https://codeforces.com/contest/803/problem/F)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "互质集合与GCD分类计数",
+    "id": "CF839D",
+    "url": "https://codeforces.com/contest/839/problem/D",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_01.txt",
+      "title": "Problem - D - Codeforces (https://codeforces.com/contest/839/problem/D)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "LCM单行求和",
+    "id": "SP5971",
+    "url": "https://www.luogu.com.cn/problem/SP5971",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_11.txt",
+      "title": "SP5971 LCMSUM - LCM Sum - 洛谷 (https://www.luogu.com.cn/problem/SP5971)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "LCM单行求和",
+    "id": "P1891",
+    "url": "https://www.luogu.com.cn/problem/P1891",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_05.txt",
+      "title": "P1891 疯狂 LCM - 洛谷 (https://www.luogu.com.cn/problem/P1891)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "LCM矩形与集合求和",
+    "id": "P1829",
+    "url": "https://www.luogu.com.cn/problem/P1829",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_04.txt",
+      "title": "P1829 [集训队互测 2010] Crash的数字表格 / JZPTAB - 洛谷 (https://www.luogu.com.cn/problem/P1829)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "LCM矩形与集合求和",
+    "id": "AGC038C",
+    "url": "https://atcoder.jp/contests/agc038/tasks/agc038_c",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "url": "https://atcoder.jp/contests/agc038/tasks/agc038_c",
+      "http_status": 200,
+      "title": "C - LCMs",
+      "statement_detected": true,
+      "bytes": 17299,
+      "cache": ".work_review\\handbook\\sources\\a57a5c58f0e60bbe.html",
+      "sha256": "4bc08d450bade9b07008a02090475afdb137c37cee94b954de28373ded745f89",
+      "content_type": "text/html; charset=utf-8"
+    }
+  },
+  {
+    "topic": "卡特兰数与反射原理",
+    "id": "P1044",
+    "url": "https://www.luogu.com.cn/problem/P1044",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_03.txt",
+      "title": "P1044 [NOIP 2003 普及组] 栈 - 洛谷 (https://www.luogu.com.cn/problem/P1044)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "卡特兰数与反射原理",
+    "id": "P1641",
+    "url": "https://www.luogu.com.cn/problem/P1641",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_04.txt",
+      "title": "P1641 [SCOI2010] 生成字符串 - 洛谷 (https://www.luogu.com.cn/problem/P1641)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "两互质面额不可表示数",
+    "id": "P3951",
+    "url": "https://www.luogu.com.cn/problem/P3951",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_08.txt",
+      "title": "P3951 [NOIP 2017 提高组] 小凯的疑惑 - 洛谷 (https://www.luogu.com.cn/problem/P3951)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "两互质面额不可表示数",
+    "id": "HDU1792",
+    "url": "https://acm.hdu.edu.cn/showproblem.php?pid=1792",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "url": "https://acm.hdu.edu.cn/showproblem.php?pid=1792",
+      "http_status": 200,
+      "title": "Problem - 1792",
+      "statement_detected": true,
+      "bytes": 8053,
+      "cache": ".work_review\\handbook\\sources\\0d83f199d2543f5c.html",
+      "sha256": "d25803d9c13dfbc0eb4e543f0db4780cd8b2e6afe375fb2c7385a24e3aba791e",
+      "content_type": "text/html;charset=GB2312"
+    }
+  },
+  {
+    "topic": "树状数组",
+    "id": "P3374",
+    "url": "https://www.luogu.com.cn/problem/P3374",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_07.txt",
+      "title": "P3374 〖模板〗树状数组 1 - 洛谷 (https://www.luogu.com.cn/problem/P3374)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "树状数组",
+    "id": "P1908",
+    "url": "https://www.luogu.com.cn/problem/P1908",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_05.txt",
+      "title": "P1908 逆序对 - 洛谷 (https://www.luogu.com.cn/problem/P1908)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "树状数组",
+    "id": "P1966",
+    "url": "https://www.luogu.com.cn/problem/P1966",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_05.txt",
+      "title": "P1966 [NOIP 2013 提高组] 火柴排队 - 洛谷 (https://www.luogu.com.cn/problem/P1966)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "置换环分解",
+    "id": "ABC350C",
+    "url": "https://atcoder.jp/contests/abc350/tasks/abc350_c",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "url": "https://atcoder.jp/contests/abc350/tasks/abc350_c",
+      "http_status": 200,
+      "title": "C - Sort",
+      "statement_detected": true,
+      "bytes": 19226,
+      "cache": ".work_review\\handbook\\sources\\8ba7ef0562297094.html",
+      "sha256": "27970c60c59b10dc884c8413e50bcee4044f842de17ea77fd3a0eae2ebc3ac42",
+      "content_type": "text/html; charset=utf-8"
+    }
+  },
+  {
+    "topic": "置换环分解",
+    "id": "ABC247F",
+    "url": "https://atcoder.jp/contests/abc247/tasks/abc247_f",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "url": "https://atcoder.jp/contests/abc247/tasks/abc247_f",
+      "http_status": 200,
+      "title": "F - Cards",
+      "statement_detected": true,
+      "bytes": 18400,
+      "cache": ".work_review\\handbook\\sources\\2d140771898a3022.html",
+      "sha256": "c5b1e1be816446cfdda6d08db5aeef7db850255ab35e7874ad505898eb1784e2",
+      "content_type": "text/html; charset=utf-8"
+    }
+  },
+  {
+    "topic": "置换环分解",
+    "id": "ABC436E",
+    "url": "https://atcoder.jp/contests/abc436/tasks/abc436_e",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "url": "https://atcoder.jp/contests/abc436/tasks/abc436_e",
+      "http_status": 200,
+      "title": "E - Minimum Swap",
+      "statement_detected": true,
+      "bytes": 20418,
+      "cache": ".work_review\\handbook\\sources\\3a153aea1f750176.html",
+      "sha256": "8ee23b65e4048bab833d935609e8762a716640241fcfe524f9779b5818a021c6",
+      "content_type": "text/html; charset=utf-8"
+    }
+  },
+  {
+    "topic": "曼哈顿距离坐标旋转",
+    "id": "ABC178E",
+    "url": "https://atcoder.jp/contests/abc178/tasks/abc178_e",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "url": "https://atcoder.jp/contests/abc178/tasks/abc178_e",
+      "http_status": 200,
+      "title": "E - Dist Max",
+      "statement_detected": true,
+      "bytes": 17050,
+      "cache": ".work_review\\handbook\\sources\\377964f99a6ec1b1.html",
+      "sha256": "eef266d3fa9a84d30da3e6924b32f1046ba86b865083840517238a9efab0f91b",
+      "content_type": "text/html; charset=utf-8"
+    }
+  },
+  {
+    "topic": "曼哈顿距离坐标旋转",
+    "id": "Typical90036",
+    "url": "https://atcoder.jp/contests/typical90/tasks/typical90_aj",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_aj",
+      "http_status": 200,
+      "title": "036 - Max Manhattan Distance（★5）",
+      "statement_detected": true,
+      "bytes": 16972,
+      "cache": ".work_review\\handbook\\sources\\beeb3e6e3e76e0be.html",
+      "sha256": "c7afb4390a1fa27c268ac305ee4515a66b4cee6815db351f449bb1fecf5832ed",
+      "content_type": "text/html; charset=utf-8"
+    }
+  },
+  {
+    "topic": "曼哈顿距离坐标旋转",
+    "id": "ABC437F",
+    "url": "https://atcoder.jp/contests/abc437/tasks/abc437_f",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "url": "https://atcoder.jp/contests/abc437/tasks/abc437_f",
+      "http_status": 200,
+      "title": "F - Manhattan Christmas Tree 2",
+      "statement_detected": true,
+      "bytes": 22356,
+      "cache": ".work_review\\handbook\\sources\\5eee48fd272bf411.html",
+      "sha256": "6d332cd17b3bc2e92cfcaacaabb72de5180cb7eccc9eeba5f48bbccd80f5ad0d",
+      "content_type": "text/html; charset=utf-8"
+    }
+  },
+  {
+    "topic": "对顶堆与中位数",
+    "id": "ABC127F",
+    "url": "https://atcoder.jp/contests/abc127/tasks/abc127_f",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "url": "https://atcoder.jp/contests/abc127/tasks/abc127_f",
+      "http_status": 200,
+      "title": "F - Absolute Minima",
+      "statement_detected": true,
+      "bytes": 19529,
+      "cache": ".work_review\\handbook\\sources\\e3b7d96a22d01b16.html",
+      "sha256": "e585356e53623cd54e47bf64165a9de2b0bceca51c469d0a7d40de53c317815d",
+      "content_type": "text/html; charset=utf-8"
+    }
+  },
+  {
+    "topic": "对顶堆与中位数",
+    "id": "P1168",
+    "url": "https://www.luogu.com.cn/problem/P1168",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_03.txt",
+      "title": "P1168 中位数 - 洛谷 (https://www.luogu.com.cn/problem/P1168)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "对顶堆与中位数",
+    "id": "LeetCode480",
+    "url": "https://leetcode.cn/problems/sliding-window-median/description/",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "url": "https://leetcode.cn/problems/sliding-window-median/description/",
+      "http_status": 200,
+      "title": "480. 滑动窗口中位数 - 力扣（LeetCode）",
+      "statement_detected": true,
+      "bytes": 216778,
+      "cache": ".work_review\\handbook\\sources\\3ce16d83796c99db.html",
+      "sha256": "e3b3a4f60e3b0f0fbcf89df48c93a3f33933662fdfe4b437b8c502b46b13a55e",
+      "content_type": "text/html; charset=utf-8"
+    }
+  },
+  {
+    "topic": "二状态树形背包",
+    "id": "Gym102992M",
+    "url": "https://codeforces.com/gym/102992/problem/M",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_01.txt",
+      "title": "Problem - M - Codeforces (https://codeforces.com/gym/102992/problem/M)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "二状态树形背包",
+    "id": "P2016",
+    "url": "https://www.luogu.com.cn/problem/P2016",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_05.txt",
+      "title": "P2016 [SEERC 2000] 战略游戏 - 洛谷 (https://www.luogu.com.cn/problem/P2016)",
+      "statement_detected": true
+    }
+  }
+]

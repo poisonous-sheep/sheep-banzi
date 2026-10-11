@@ -1,0 +1,1543 @@
+{
+  "topics": 85,
+  "templates": 85,
+  "examples": 176,
+  "standalone_compiled": 85,
+  "combined_compiled": 176,
+  "recorded_runs": 87,
+  "oracle_groups": 17,
+  "oracle_cases": 8550,
+  "primary_source_examples": 176,
+  "pdf_pages": 320,
+  "pdf_links": 889,
+  "pdf_bookmarks": 272,
+  "pdf_sha256": "bf08cfce3c843b8468867c94b9417783fdfd2a69c731bf599c031b037821b38e",
+  "pdf_bytes": 1389579,
+  "original_note_hash_checks": 21,
+  "remote_snapshot_files": 45,
+  "online_submissions": 0,
+  "gaps": [
+    {
+      "name": "Crystalfly三状态树DP",
+      "reason": "目前仅核实1道独立原题。洛谷P9847、QOJ6438为同题镜像，不计作第二道例题。"
+    },
+    {
+      "name": "Kingdom军队遍历树DP",
+      "reason": "目前仅核实1道独立原题；未将另一种军队同时移动的题混作本板子例题。"
+    }
+  ],
+  "compile": [
+    {
+      "topic": "普通线段树",
+      "category": "数据结构",
+      "example": "P1816",
+      "sha256": "a2e1d845d062ca78a3c3c2c9c0453c91e0301aaf134d0fc7fca35f33078b23cd",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "普通线段树",
+      "category": "数据结构",
+      "example": "P1198",
+      "sha256": "367f1fb80d580aef1c970b0c8f21cc09c7c5b5ac6b59baaa6462c72467d85593",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "区间加线段树",
+      "category": "数据结构",
+      "example": "P3372",
+      "sha256": "afeb937faf06c5beaa8749aaf538e33848faf96264a6f25a6f265f023afe6837",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "区间加线段树",
+      "category": "数据结构",
+      "example": "P3374",
+      "sha256": "9b2fea0add6ad35921782e93266b4e168ef27d96557e68410fa3c0f7253452a2",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "并查集",
+      "category": "数据结构",
+      "example": "practice2_a",
+      "sha256": "3aea34d3d1536b284ab40529ada01b560cf6b46cc2795bbabcba642fcd0e3a40",
+      "compiled": true,
+      "sample_tests": 1
+    },
+    {
+      "topic": "并查集",
+      "category": "数据结构",
+      "example": "ABC120D",
+      "sha256": "ab2d683264b734780d0534e7f045e69c62f2cebf3d661e827f87ef6eca2558dc",
+      "compiled": true,
+      "sample_tests": 2
+    },
+    {
+      "topic": "01Trie",
+      "category": "数据结构",
+      "example": "CF706D",
+      "sha256": "6580e5de18e7dd2a23e5f739448bbde69c6747897f4673252f7b4917c0b48fc0",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "01Trie",
+      "category": "数据结构",
+      "example": "P4551",
+      "sha256": "4f83a9321326dceddd7e21c3baee6bb11a92679cf2dbcc42c003dbbc980e9fa3",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "ST表",
+      "category": "数据结构",
+      "example": "P3865",
+      "sha256": "42bbff534f20d23db742aaebf88b6a06934ee91ec8f6373ad17dd436ca7d4c26",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "ST表",
+      "category": "数据结构",
+      "example": "P2880",
+      "sha256": "b7b118d902e9bd5a05f11b69841fd3fa56e064d4a79781d255193ca4d7570c13",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "动态开点权值线段树",
+      "category": "数据结构",
+      "example": "ABC253C",
+      "sha256": "eeae05f825413efffba625486aa1279a34e6423ff911770ac23591f0d4aca4dc",
+      "compiled": true,
+      "sample_tests": 1
+    },
+    {
+      "topic": "动态开点权值线段树",
+      "category": "数据结构",
+      "example": "P3369",
+      "sha256": "ae3bfb221dc2dd087acccb9616cc6c18ad5ed98bd7d526479dac252df0561d3a",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "动态开点权值线段树",
+      "category": "数据结构",
+      "example": "ABC241D",
+      "sha256": "43424a21260db4039ee49a5cc58151407670b84f6fb483386e5caa17f9148846",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "权值线段树合并与分裂",
+      "category": "数据结构",
+      "example": "P5494",
+      "sha256": "2057e8fffd1b369faecda892cfe0526e7fc1d4423e7da819849da3fb7d813574",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "权值线段树合并与分裂",
+      "category": "数据结构",
+      "example": "P3224",
+      "sha256": "dace264ec983c2215db4c6960287baf17e2593b0f642f14c4b55e65fb2969212",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "势能线段树",
+      "category": "数据结构",
+      "example": "P4145",
+      "sha256": "a19bc3d4f1eecbe89a5666cb90ac6b7b239614118b70a914fe26382c559532c8",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "势能线段树",
+      "category": "数据结构",
+      "example": "CF438D",
+      "sha256": "184300f9075e1613c69bf782cfa48d2743494b7c3a39c541520ebf89cf02b2b0",
+      "compiled": true,
+      "sample_tests": 1
+    },
+    {
+      "topic": "线段树优化建图",
+      "category": "数据结构",
+      "example": "CF786B",
+      "sha256": "fb463efa0945ec38c8981ddf13bf5ca193ff145c3b41e49552fa1d52c81a63d6",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "线段树优化建图",
+      "category": "数据结构",
+      "example": "P6348",
+      "sha256": "156fca33877a5412a97cd0812716f2e0627952151c630d488743e6517f83a428",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "Hopcroft-Karp匹配",
+      "category": "图论",
+      "example": "P3386",
+      "sha256": "06636e38d74732e2926188d619cac5435324734ebc6dfec9da95abe0b8b71797",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "Hopcroft-Karp匹配",
+      "category": "图论",
+      "example": "practice2_d",
+      "sha256": "20404bdb30ad19a357f83dad4170e38b738f0ad18360b7bed7b9c17f1038a4c8",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "DFS增广路匹配",
+      "category": "图论",
+      "example": "P3386",
+      "sha256": "6ec50d4775e7e5c35f7b5d08ab56e19e13d1d33da84378f7c6e5c0a100dc4034",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "DFS增广路匹配",
+      "category": "图论",
+      "example": "practice2_d",
+      "sha256": "6a750a5208a3686c936068a13e66c880cd171c3c9f965caa48173e0258cef049",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "二分图染色",
+      "category": "图论",
+      "example": "ABC327D",
+      "sha256": "9b3480968087f5d31f5e45d307cf89bc6874842e689b3438d2f06d1d7086f965",
+      "compiled": true,
+      "sample_tests": 3
+    },
+    {
+      "topic": "二分图染色",
+      "category": "图论",
+      "example": "P1330",
+      "sha256": "e39aa013d5f14dace4ffe5bf52d859ae03eaf16c222a28a6c1eeb75bc03771e2",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "倍增LCA",
+      "category": "图论",
+      "example": "P3379",
+      "sha256": "02b5d15d253f394bc08006019ba53ec3181a2d0be63739dfe7857fceff8fa880",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "倍增LCA",
+      "category": "图论",
+      "example": "CF1328E",
+      "sha256": "1895433462931fdf4aa176a8692972296f2815ff1548f129d7ab55f1625be6a8",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "Kruskal重构树",
+      "category": "图论",
+      "example": "P2245",
+      "sha256": "d141677e9c082d16e09ea51dabd2346a5912781e279191ce8b9481aace9e27d3",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "Kruskal重构树",
+      "category": "图论",
+      "example": "P1967",
+      "sha256": "22580d09d538c23ff86aa607cf9e6c1143d9572bb86b9a0802ae95086a009d4a",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "Tarjan强连通分量",
+      "category": "图论",
+      "example": "P2341",
+      "sha256": "d6842733d513132568bcf869cdc6d9f143b012367421525632c91a7a6b36c687",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "Tarjan强连通分量",
+      "category": "图论",
+      "example": "P3387",
+      "sha256": "23fa0150266737c36e0e25c5ea4b1b268b94c2ec7dacc7a0d3bd18459764484a",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "Kosaraju强连通分量",
+      "category": "图论",
+      "example": "P2341",
+      "sha256": "d960e6a589f8e9b2765e93fd18dd1f16ad09d0f6deb96c0a4f92e9c79a078702",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "Kosaraju强连通分量",
+      "category": "图论",
+      "example": "P3387",
+      "sha256": "33152fec75ce76a5c34ce69f743fd3f691524899bf4e2845f692cf5e2126266b",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "割边",
+      "category": "图论",
+      "example": "P1656",
+      "sha256": "3ae5f7b173f73a0123578de26114165196df2e14f9e530603cc380f215f98a52",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "割边",
+      "category": "图论",
+      "example": "CF118E",
+      "sha256": "e49dcd9d0386cb15f928eb7e635a8096ca057d48795e52b282f0442ec2a45222",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "割点",
+      "category": "图论",
+      "example": "P3388",
+      "sha256": "d777d33310b7f36b0225ecda5051fdc1b29bc36ca54136ae7508fa9a56206525",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "割点",
+      "category": "图论",
+      "example": "P3469",
+      "sha256": "3a97e355fccad9ebb07abbe0dc3aae45e3b6348366bb58548866818b210fb796",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "边双连通分量",
+      "category": "图论",
+      "example": "P8436",
+      "sha256": "dcd68f9ef247eab9a6cae99731b9b48a6724be8ece3a548a1d4c8e97fa84d6d2",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "边双连通分量",
+      "category": "图论",
+      "example": "P2860",
+      "sha256": "193fe9c2a8ace7f65d5f8e2ba392a9122080ba476d6651c2aea2bbcc67ae849f",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "点双连通分量",
+      "category": "图论",
+      "example": "P8435",
+      "sha256": "75fc2eb45d01c258a728079d98941e6145edc2950a1c9450c757dabccdc81d82",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "点双连通分量",
+      "category": "图论",
+      "example": "P3225",
+      "sha256": "0bcfefa2b9d4f2325f9505a66496a3791e142121bc02149c45ea9b5a10712e73",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "2-SAT",
+      "category": "图论",
+      "example": "P4782",
+      "sha256": "48693ba660ec8c845ef2176cf35a553cbe96efd2d85a6345d4a58f8e3af86ad9",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "2-SAT",
+      "category": "图论",
+      "example": "P4171",
+      "sha256": "cad4779c434f9a8425118a800ccf3a6b1175006393b6d6713fa0ccbefc98cfe8",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "Dinic最大流",
+      "category": "图论",
+      "example": "P3376",
+      "sha256": "f8c0b22a794203dd63d5cd3c2c12da99ee7ca2a9b3c400262d752023dedc1c34",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "Dinic最大流",
+      "category": "图论",
+      "example": "P2763",
+      "sha256": "56ccecb6c30caeb0e9833a89d649d4fb8038c9dc9a7ec54a79dd0e23b74b014d",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "Prim最小生成树",
+      "category": "图论",
+      "example": "P3366",
+      "sha256": "c1777de1165d0aa7a84816508a2bf5dfb4383df91b1efe64bfb9f86920e56cb2",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "Prim最小生成树",
+      "category": "图论",
+      "example": "ABC065D",
+      "sha256": "f6a219af41087887eee357ad2aca2ac337a6d73ac9186c8f59b52606d9bb9e3e",
+      "compiled": true,
+      "sample_tests": 1
+    },
+    {
+      "topic": "拓扑排序",
+      "category": "图论",
+      "example": "P1137",
+      "sha256": "aba171dde041aa7d3a8d5f1113ee6dd52289718b2452f21f8576260bfbe2d74c",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "拓扑排序",
+      "category": "图论",
+      "example": "ABC223D",
+      "sha256": "5217b36bcf74d86bcf182c71c91810e0e0226f5c611295dfcc53841fa4ef9933",
+      "compiled": true,
+      "sample_tests": 1
+    },
+    {
+      "topic": "有向欧拉路径",
+      "category": "图论",
+      "example": "P7771",
+      "sha256": "67ffe28b6639767c6f6fbecbb0b5a3d00e8c48e1216fcf4e976947ba8371136a",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "有向欧拉路径",
+      "category": "图论",
+      "example": "CF508D",
+      "sha256": "439a051ec49b13504d952ca8bf14c9992639f2942bfc33b0047b1854211d687a",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "无向欧拉路径",
+      "category": "图论",
+      "example": "P2731",
+      "sha256": "0907063352505be5d1d79f2d3880a1a715878909777823a2693cdf79b1f288a7",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "无向欧拉路径",
+      "category": "图论",
+      "example": "P1341",
+      "sha256": "f61199f74454f0393feb80f7626522f469ff5ea44ba72871516869fe4ebe36c9",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "差分约束",
+      "category": "图论",
+      "example": "P5960",
+      "sha256": "4e4218f7e88e261d3318b17adf8431be2f40213ab8757e420984e14809887557",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "差分约束",
+      "category": "图论",
+      "example": "P3275",
+      "sha256": "ba91bb4238512c6e3d926f8875add10eb29dd2f723039ba3e3fd1c7d99df0f4f",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "扩展欧几里得",
+      "category": "数论",
+      "example": "P1082",
+      "sha256": "12310de0687265ed8dc8da7d282eafb39ab65ff390db2e5a4decc38116472e0d",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "扩展欧几里得",
+      "category": "数论",
+      "example": "ABC186E",
+      "sha256": "7e98ea2e3920e81f0bae5cc99bd80ff97b9c7b49c6fb89bebe57f5359ccd6a99",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "中国剩余定理",
+      "category": "数论",
+      "example": "P1495",
+      "sha256": "6f78e305c1df0fbeac26845483aed22f0a8471d1ce007cb2514f31f87a8a67e9",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "中国剩余定理",
+      "category": "数论",
+      "example": "P4777",
+      "sha256": "08465204f559e96d6c31a137cc347f89054bcf1497a3069743ac0752bc834b70",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "素数模组合数",
+      "category": "数论",
+      "example": "ABC034C",
+      "sha256": "1a157cca1eb3e6b191f1b1644b6771b13e0b9e964bd9b106e4ad9dabea54c7fc",
+      "compiled": true,
+      "sample_tests": 1
+    },
+    {
+      "topic": "素数模组合数",
+      "category": "数论",
+      "example": "ABC145D",
+      "sha256": "0a4c6a052aaa7460c3e76b5577fd02b75de1a7916d3371c230e12b9839c7dcbe",
+      "compiled": true,
+      "sample_tests": 2
+    },
+    {
+      "topic": "Lucas定理",
+      "category": "数论",
+      "example": "P3807",
+      "sha256": "a948040261402a7f34feaeb208b267eb06579129b56ff83ede8bb794d0ea518d",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "Lucas定理",
+      "category": "数论",
+      "example": "P1313",
+      "sha256": "cfdceacd40ed4c8e6e280e605172243f36e4227bf86cf3a69832d6367d658792",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "整除分块",
+      "category": "数论",
+      "example": "P1403",
+      "sha256": "b97980630d830b11fd6dfadc2f85f9419c560ea598065c6ec6d58918dbf0aa18",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "整除分块",
+      "category": "数论",
+      "example": "P2424",
+      "sha256": "f01d23683acd3371bd49c46427af80aa18417f22bd6d4f21e0607ec9e57f7832",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "扩展Lucas",
+      "category": "数论",
+      "example": "P4720",
+      "sha256": "e8237bba08a6f71f01e3c90b938772c2e1d5ddd7ff9ce8902afd5d59916e2264",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "扩展Lucas",
+      "category": "数论",
+      "example": "P2183",
+      "sha256": "cb169ebcfd90e749974d7f614d5459da68818b7935e0be4370a13ee15238cb0c",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "扩展欧拉与指数塔",
+      "category": "数论",
+      "example": "P4139",
+      "sha256": "05ec5d91a2be9aa53d40ac949ea002bb6957395bb07d0f60c397284d8c0287ec",
+      "compiled": true,
+      "sample_tests": 1
+    },
+    {
+      "topic": "扩展欧拉与指数塔",
+      "category": "数论",
+      "example": "CF906D",
+      "sha256": "9ec31b839cef360db467adccf488d9fbc550855dec248a69529db0b9a9bb214a",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "原根",
+      "category": "数论",
+      "example": "P6091",
+      "sha256": "a6a743dcd91a9fdf89b143d261ae07aa7f92e27c9240fbb4199c86ebff64b401",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "原根",
+      "category": "数论",
+      "example": "CF284A",
+      "sha256": "8e491741814ba1a18cafa5112d5cbc8404d22d852e5b14ffafd1ecd6f7ad94e2",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "BSGS离散对数",
+      "category": "数论",
+      "example": "P3846",
+      "sha256": "27a7bfd0ca5d7efce06966c0b05956d27c6c3be1a60a1f171fe142f7f53ed7b1",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "BSGS离散对数",
+      "category": "数论",
+      "example": "P2485",
+      "sha256": "b2c62854766a474aa81f82cecb45c163d1e0404ada5c3b5c7a017b06f3914ca0",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "珂朵莉树",
+      "category": "数据结构",
+      "example": "CF896C",
+      "sha256": "b449ac5e0843295730a5c6a6e4ee8e2c7042ace1b575cda92d82d8d073567303",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "珂朵莉树",
+      "category": "数据结构",
+      "example": "P3740",
+      "sha256": "547a1c9a5bf829c30ee8cde383f535d8789003844b4981a80f67e386d068e772",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "离线二维数点",
+      "category": "数据结构",
+      "example": "P2163",
+      "sha256": "5f2e8c5ea510da241e493cb2b8cf608ee29208a623bd879a7b3c97c26d4c373b",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "离线二维数点",
+      "category": "数据结构",
+      "example": "P1972",
+      "sha256": "d0dab2b60ac5049fcdad863c76917e6120bf9b30f8b3e938d28d1e870f015850",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "启发式合并",
+      "category": "数据结构",
+      "example": "P3201",
+      "sha256": "cf2496e1731349868a4409bbda9aa48bb89e913ad633885e300b0d4207f1de73",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "启发式合并",
+      "category": "数据结构",
+      "example": "CF600E",
+      "sha256": "4ed5d09e9b3c51ee691954da70fe50781a2bfaefd7efaf3f53099391d38db813",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "DSU on Tree",
+      "category": "数据结构",
+      "example": "CF600E",
+      "sha256": "16a42253c57093926e07eadb7c0e3c13d34db24a602ee16776a548508e26de79",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "DSU on Tree",
+      "category": "数据结构",
+      "example": "CF375D",
+      "sha256": "d28cb874e3ec8386a955fcf5fb3e0ac757c330bcbb3815e2d6bf9c647c1b93e4",
+      "compiled": true,
+      "sample_tests": 1
+    },
+    {
+      "topic": "步长根号分治",
+      "category": "杂",
+      "example": "CF1207F",
+      "sha256": "6a13407ded639c0e69f39857fa620b5fef848355a8947a59ed0bc6baaf5c04be",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "步长根号分治",
+      "category": "杂",
+      "example": "CF797E",
+      "sha256": "af5d44dc858509566eefd31cbed8170213559b951d8d385ae9947e286f5e5d53",
+      "compiled": true,
+      "sample_tests": 1
+    },
+    {
+      "topic": "KMP字符串匹配",
+      "category": "杂",
+      "example": "P3375",
+      "sha256": "8e35227c3a397a7265d96db93d9e981fffcc9b2d15a250a3d311657c134794c1",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "KMP字符串匹配",
+      "category": "杂",
+      "example": "CF471D",
+      "sha256": "b9fa90796a218afd23287bae4b1c16a223ada027dcc3522f87978dddc76d515a",
+      "compiled": true,
+      "sample_tests": 1
+    },
+    {
+      "topic": "线性基",
+      "category": "杂",
+      "example": "P3812",
+      "sha256": "4783ffe449af15f59871ef6d4478c6df4f25dafec9b304745e8ea30f644dcc3a",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "线性基",
+      "category": "杂",
+      "example": "P4151",
+      "sha256": "ed54259bbee8a77850b4cf89bf11641178fdecf06c95a8f7ba82682b1f3e0b72",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "线性基",
+      "category": "杂",
+      "example": "P4570",
+      "sha256": "57a7f5c8725891131ce362d9dcec70ff4b862eb27519cc10ce8a5376a1d8df55",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "点直线与线段几何",
+      "category": "杂",
+      "example": "CGL_1_A",
+      "sha256": "4ca996bf26a625625220a3d5b5f51f3fbc30b0f75d583a7a1d683909e76dffa3",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "点直线与线段几何",
+      "category": "杂",
+      "example": "CGL_1_B",
+      "sha256": "8855130584dbd114fca0adbd2810209c31b20323bb868eeef9b7e37f4dfb97de",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "极角排序",
+      "category": "杂",
+      "example": "CF598C",
+      "sha256": "d0ca05e20f1934278692e98b1078de13358571624f9c295099bbfb197635dc71",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "极角排序",
+      "category": "杂",
+      "example": "ABC139F",
+      "sha256": "8f3a121ed594b0a8aac50717f6db912e6f1c86b26f1f40ea64637ffac0603fb0",
+      "compiled": true,
+      "sample_tests": 6
+    },
+    {
+      "topic": "度数根号分治",
+      "category": "杂",
+      "example": "ABC219G",
+      "sha256": "ea6b1b01bd538dcb9ffc24bd2f9bbcdff338c7737790ad34a3cdaa408d718cbf",
+      "compiled": true,
+      "sample_tests": 2
+    },
+    {
+      "topic": "度数根号分治",
+      "category": "杂",
+      "example": "Typical90-083",
+      "sha256": "6b63c52d9778da97f2df0ba29962ec91af2be7ef556c820d27f4f759aee288ee",
+      "compiled": true,
+      "sample_tests": 1
+    },
+    {
+      "topic": "区间石子合并",
+      "category": "dp",
+      "example": "DP_N",
+      "sha256": "ed22d8afc9f269a52e33ec423fb0e0303e77eb5a115f579604f5b120e848ba32",
+      "compiled": true,
+      "sample_tests": 5
+    },
+    {
+      "topic": "区间石子合并",
+      "category": "dp",
+      "example": "P1880",
+      "sha256": "ea3fed8f2f80b1cdfc0e67cd3532d5e462b8eb128039e332ca8916d420b64915",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "区间同色配对与涂色",
+      "category": "dp",
+      "example": "CF1132F",
+      "sha256": "aed75b9747246fbf092c50a18e59a1e63df4b0c313250e9f334556e5da82adb6",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "区间同色配对与涂色",
+      "category": "dp",
+      "example": "P4170",
+      "sha256": "33a969189772957358773911617032cb141d075261a472b063d8115acf763724",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "括号计数与无歧义区间DP",
+      "category": "dp",
+      "example": "P7914",
+      "sha256": "cf754dd73c9f44d301af200cd8d359a059d1fd633bc027ea1a557e25e56bda89",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "括号计数与无歧义区间DP",
+      "category": "dp",
+      "example": "ABC312D",
+      "sha256": "4ecd0aa37e61eade91ee3013bc2de91c3a769220d3aab5d800ef5ae2fa81176b",
+      "compiled": true,
+      "sample_tests": 3
+    },
+    {
+      "topic": "数位DP与有限状态",
+      "category": "dp",
+      "example": "P2657",
+      "sha256": "db90a1d6e3dea474b3cfed618450689f0ae1f1315f8991a5fe4fadce572d0f89",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "数位DP与有限状态",
+      "category": "dp",
+      "example": "DP_S",
+      "sha256": "4c0625bc0a5a3ee3d55f331457b4d3db5bf071a877689532bbd3c17dfd349eaf",
+      "compiled": true,
+      "sample_tests": 2
+    },
+    {
+      "topic": "数位构造与不同数位限制",
+      "category": "dp",
+      "example": "CF1560F1",
+      "sha256": "5918e6ca4c93839e3b2807617c1917c2d1bad0f3d52a23fb748cf54233708dd0",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "数位构造与不同数位限制",
+      "category": "dp",
+      "example": "CF1560F2",
+      "sha256": "5918e6ca4c93839e3b2807617c1917c2d1bad0f3d52a23fb748cf54233708dd0",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "数位背包",
+      "category": "dp",
+      "example": "P3188",
+      "sha256": "334bc3926d0bbad74ead016f0895497a2514f0bd616633ee75c5ebcfd1c2e68f",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "数位背包",
+      "category": "dp",
+      "example": "P1048",
+      "sha256": "bac7e913b3aea2ceef1a45849f362ea531a694b4d1af38186c84564d9e59edce",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "进位支付与有符号数位",
+      "category": "dp",
+      "example": "ABC231E",
+      "sha256": "1d3e04af1c72c8bca304e81d54f8006e6d2d11d134db8ecbc93bfe60e6bcb773",
+      "compiled": true,
+      "sample_tests": 2
+    },
+    {
+      "topic": "进位支付与有符号数位",
+      "category": "dp",
+      "example": "ABC155E",
+      "sha256": "140359c82080de9a335dc44e512c410902a2772095d60c34511a320a52e3f1ae",
+      "compiled": true,
+      "sample_tests": 2
+    },
+    {
+      "topic": "二进制位贡献与Popcount计数",
+      "category": "dp",
+      "example": "Gym102832D",
+      "sha256": "5ac15fb75e9f346ff8039a521775586bd297499a1c429845c14b914d466ccbde",
+      "compiled": true,
+      "sample_tests": 1
+    },
+    {
+      "topic": "二进制位贡献与Popcount计数",
+      "category": "dp",
+      "example": "ABC356D",
+      "sha256": "33b6db3c0b145bf8f3d4446a17360d54f1b8594d2674499627d262c74e5e6428",
+      "compiled": true,
+      "sample_tests": 2
+    },
+    {
+      "topic": "二进制位贡献与Popcount计数",
+      "category": "dp",
+      "example": "P4317",
+      "sha256": "d5643045411b5d8fbf3a0f77a2afb047a126592b500d8d581f2d872cae3b8298",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "树上最大连通块权和",
+      "category": "dp",
+      "example": "P1122",
+      "sha256": "d8f7ae40884edfc9857b22791c4911fa60e55b12b7946b9780182ac79dd0cc18",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "树上最大连通块权和",
+      "category": "dp",
+      "example": "CF1324F",
+      "sha256": "8e029c18b8138defb43bbd3624367ab9fbc858c6386b199a3fdfa962b456478e",
+      "compiled": true,
+      "sample_tests": 1
+    },
+    {
+      "topic": "子树合并背包",
+      "category": "dp",
+      "example": "P2014",
+      "sha256": "bf6cf5411df80af2ec838c384f0f3a1f09185e5005975c574bfa8dacc6ff4316",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "子树合并背包",
+      "category": "dp",
+      "example": "P1273",
+      "sha256": "48e473419b5a825c3e00c29862636fc56fa47462f6e1aa92bc6748459d454a47",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "DFS序依赖背包",
+      "category": "dp",
+      "example": "P2014",
+      "sha256": "7c73b841696113773aa1d4170766b79ddf6f41f4cbddf741d903051e1114695f",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "DFS序依赖背包",
+      "category": "dp",
+      "example": "P2515",
+      "sha256": "40430895af1b771862b50a935987a6303d7261f0d24ac828bb258a2291af206b",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "换根连通块计数",
+      "category": "dp",
+      "example": "DP_V",
+      "sha256": "b10818d6f177c15d31e9bb5f00c2eeb854ef921cff16de3d05aaccbb0c29c728",
+      "compiled": true,
+      "sample_tests": 4
+    },
+    {
+      "topic": "换根连通块计数",
+      "category": "dp",
+      "example": "CF543D",
+      "sha256": "77b5fc492192c10c8161bc86f236beadd88fa45fce97db5dcf0896b4e7a5b6ad",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "树上距离分层计数",
+      "category": "dp",
+      "example": "CF1551F",
+      "sha256": "2f6416f6d20850af30ee43af17e23ecf5e45c02296a90e2d9e4cfd24f3c5fdaa",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "树上距离分层计数",
+      "category": "dp",
+      "example": "CF161D",
+      "sha256": "f0c68c8fc1657225be76999b3275c6d95d8d42185df2b32ecca26653b104b22f",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "有上下界可行流与最大流",
+      "category": "图论",
+      "example": "CF510E",
+      "sha256": "94e12f9d19d278ade14610bd4df11349d26c203771afc1d72d883c7600560ae4",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "有上下界可行流与最大流",
+      "category": "图论",
+      "example": "P5192",
+      "sha256": "a8cd4872e7c074100beb7a9158c9e35586001ea32d20a5501f8c8854852040ed",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "最小费用最大流",
+      "category": "图论",
+      "example": "P3381",
+      "sha256": "052a5d546f907dff96d4252c649d0f8d916b526421485d7c3894ab10da86b79b",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "最小费用最大流",
+      "category": "图论",
+      "example": "P4015",
+      "sha256": "977913b4afcb0790620b872d54e268043dce34da858e3c7aa6e8e06dd3ec649a",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "最小割建模",
+      "category": "图论",
+      "example": "P2774",
+      "sha256": "948932a39a71cb285ffcc4aaf3bc878bfae976007a3f3e36519399c63a1858dd",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "最小割建模",
+      "category": "图论",
+      "example": "P2762",
+      "sha256": "f73d31bd49f988c1ae0925d3c2ae592e20f115a9d67adec2a1c551a6ba15982c",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "最小割建模",
+      "category": "图论",
+      "example": "P4126",
+      "sha256": "df56fc993364ebae61e62d7bda4d8992cada32a9ce89ab35096d4a8e193e52c6",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "启发式分治",
+      "category": "数据结构",
+      "example": "UVA1608",
+      "sha256": "cad739fa03ce58898a2f602dd81cdc39700d5d2f4e00cd11606de960b88aa9d5",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "启发式分治",
+      "category": "数据结构",
+      "example": "CF1156E",
+      "sha256": "2ccbcfd2592bfbd36832180e44798e1bfe1b855b30d3e88b2885015b027b8c3d",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "基环树最大权独立集",
+      "category": "图论",
+      "example": "P2607",
+      "sha256": "1673da94d585adf8dff5d2c1fde4e1c181d9f1d806081ceacdfc96b3783f1eae",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "基环树最大权独立集",
+      "category": "图论",
+      "example": "P1453",
+      "sha256": "c55a11faa9b40bde584c2fc333f9fca3e3dff2f596d19824a7b09a17ac658e43",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "基环树最长路径与断环直径",
+      "category": "图论",
+      "example": "P4381",
+      "sha256": "84d039e242331106fa5ac732566ed7f929640efe9d2184d96d72da38024240b8",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "基环树最长路径与断环直径",
+      "category": "图论",
+      "example": "CF835F",
+      "sha256": "6dfd242cdd3e4e295289b3d2f3c2ba75ef15855b434a6b372fd3c868373ea30a",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "自相似序列奇偶分治",
+      "category": "dp",
+      "example": "QOJ12409",
+      "sha256": "ce9a3464b022df1eb3462245437d25dd045b8e256a33bc8d5c6d14bc18d1eaf4",
+      "compiled": true,
+      "sample_tests": 1
+    },
+    {
+      "topic": "自相似序列奇偶分治",
+      "category": "dp",
+      "example": "ABC242D",
+      "sha256": "52de35d4bb84ecc7ad42ffd08092f955abcaa75003f23c114b98304fe7af9eb1",
+      "compiled": true,
+      "sample_tests": 1
+    },
+    {
+      "topic": "树上不相交给定路径",
+      "category": "dp",
+      "example": "HDU5293",
+      "sha256": "129e5ba335e910883628c9c01c3dcc9e82faaad734a9b5c31241ea6ea81b559a",
+      "compiled": true,
+      "sample_tests": 2
+    },
+    {
+      "topic": "树上不相交给定路径",
+      "category": "dp",
+      "example": "HDU4912",
+      "sha256": "f519ab05f20c47b278d13f3aa57c9e0531943c5ba6acf7beed8319187ad92845",
+      "compiled": true,
+      "sample_tests": 2
+    },
+    {
+      "topic": "祖先路径最小费用覆盖",
+      "category": "dp",
+      "example": "CF1675D",
+      "sha256": "678e5cfb577926580504498fa2c50d1d4f4bff85854b33022b467259c03a2acc",
+      "compiled": true,
+      "sample_tests": 1
+    },
+    {
+      "topic": "祖先路径最小费用覆盖",
+      "category": "dp",
+      "example": "CF671D",
+      "sha256": "a67b0ceabd684f6a47b310ae4cb03813403bc92dddbcfad4f5ab24e840c86feb",
+      "compiled": true,
+      "sample_tests": 1
+    },
+    {
+      "topic": "Crystalfly三状态树DP",
+      "category": "dp",
+      "example": "Gym103470H",
+      "sha256": "bff7649d04ff9105dfb2edeb7621dec459c5a30e9bc99f0903090849cb3e4d51",
+      "compiled": true,
+      "sample_tests": 1
+    },
+    {
+      "topic": "Kingdom军队遍历树DP",
+      "category": "dp",
+      "example": "Gym102769K",
+      "sha256": "f146bbb5e15cce288b19891dafbb343bd3b16610a1c84355991f9e5b94554f48",
+      "compiled": true,
+      "sample_tests": 1
+    },
+    {
+      "topic": "区间强制对象分治",
+      "category": "dp",
+      "example": "P4766",
+      "sha256": "3d91108115a5251bf137fed5cf8382c2a1b5cd8d6926710c6cb2f37018371fe0",
+      "compiled": true,
+      "sample_tests": 1
+    },
+    {
+      "topic": "区间强制对象分治",
+      "category": "dp",
+      "example": "UVA10003",
+      "sha256": "73c9c5e0e617f6938bef028ef43aafffd14acf903506fcd91680c561b6795817",
+      "compiled": true,
+      "sample_tests": 1
+    },
+    {
+      "topic": "异或比较与最高不同位",
+      "category": "tirick",
+      "example": "CF1720D1",
+      "sha256": "5f0e57691452c7be590ba5168d6141c0af5291d50d30d518419a5a059322be92",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "异或比较与最高不同位",
+      "category": "tirick",
+      "example": "CF276D",
+      "sha256": "3518eeb3abfeae6701de8a9641349cd7349b62da74ecc3544c7e822295ff4a60",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "前缀关系计数",
+      "category": "tirick",
+      "example": "CF1398C",
+      "sha256": "b8a154ec1383505f619506d5a5871473f32d0de5e64e277d175c55d71f6a12b8",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "前缀关系计数",
+      "category": "tirick",
+      "example": "ABC105D",
+      "sha256": "a46bd2c221f435120d539a421b2ad41e6f8a4dc27c6c5ede5c9ed2b2f9943b5c",
+      "compiled": true,
+      "sample_tests": 2
+    },
+    {
+      "topic": "同余差与GCD",
+      "category": "tirick",
+      "example": "CF1920C",
+      "sha256": "cd2f754971a78d74ec237f77e92866192bc273987243a3c9c63c3fd9191034a7",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "同余差与GCD",
+      "category": "tirick",
+      "example": "ABC109C",
+      "sha256": "3c3050810b48dfc34d2f847147fe69b2aff6cd3b922689bbc05136d26034ecc1",
+      "compiled": true,
+      "sample_tests": 2
+    },
+    {
+      "topic": "莫比乌斯反演与线性筛",
+      "category": "数论",
+      "example": "P2522",
+      "sha256": "5785aecfd4b7c5d3064721fb1c275aca0888f6b5f61553621e655eabda6a7173",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "莫比乌斯反演与线性筛",
+      "category": "数论",
+      "example": "P3455",
+      "sha256": "7c75d4764eb76a1cbc57829c3c8a43e8053a35d186a148eb2a74c3769f4ceca0",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "互质集合与GCD分类计数",
+      "category": "数论",
+      "example": "CF803F",
+      "sha256": "7aac55239493b80de96b57222e28120e4076c61aa484b9e0a21216bb6ffa6703",
+      "compiled": true,
+      "sample_tests": 2
+    },
+    {
+      "topic": "互质集合与GCD分类计数",
+      "category": "数论",
+      "example": "CF839D",
+      "sha256": "bb311b3ed2c7ff51851f4bded3f4d9152b225afc39755c6cd358d48cd6308931",
+      "compiled": true,
+      "sample_tests": 2
+    },
+    {
+      "topic": "LCM单行求和",
+      "category": "数论",
+      "example": "SP5971",
+      "sha256": "815d5e6a22818d8a25ef3c48b53baac0f4fe2c11fc6da4fa717ce422424ede65",
+      "compiled": true,
+      "sample_tests": 1
+    },
+    {
+      "topic": "LCM单行求和",
+      "category": "数论",
+      "example": "P1891",
+      "sha256": "815d5e6a22818d8a25ef3c48b53baac0f4fe2c11fc6da4fa717ce422424ede65",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "LCM矩形与集合求和",
+      "category": "数论",
+      "example": "P1829",
+      "sha256": "4f5b3c5bbee4d1870724375a8265cae3965d42cac51290ca1b607f7a17ca9653",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "LCM矩形与集合求和",
+      "category": "数论",
+      "example": "AGC038C",
+      "sha256": "82543dc95c9700ad6f4e7675c4d06638020df2cc8b0369aa477442f22e35a797",
+      "compiled": true,
+      "sample_tests": 2
+    },
+    {
+      "topic": "卡特兰数与反射原理",
+      "category": "数论",
+      "example": "P1044",
+      "sha256": "258ce4aeda2790da236f598d81b87c2035eefd904bce29e2cc1ad664b698b041",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "卡特兰数与反射原理",
+      "category": "数论",
+      "example": "P1641",
+      "sha256": "41783299d33e0c651c01b595fc7f1d6f6524247d4a1148063dcc401b56fa359b",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "两互质面额不可表示数",
+      "category": "tirick",
+      "example": "P3951",
+      "sha256": "0a27e8036d05b1589fca7320b1ae455ec21764ae6bff26507e34fc55cd022c88",
+      "compiled": true,
+      "sample_tests": 1
+    },
+    {
+      "topic": "两互质面额不可表示数",
+      "category": "tirick",
+      "example": "HDU1792",
+      "sha256": "37683954df57ef0a3fc5a1d4420698f88b4266725ffdae8d7a137c410e54e32c",
+      "compiled": true,
+      "sample_tests": 2
+    },
+    {
+      "topic": "树状数组",
+      "category": "数据结构",
+      "example": "P3374",
+      "sha256": "ccb7c5590b9c1a05072bd40dfd3c6bb6cba8aeae4291af9c3307a5dfcfdae505",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "树状数组",
+      "category": "数据结构",
+      "example": "P1908",
+      "sha256": "22af8cb8db33a041d26bc17c12e1b7ca0c6d217c7cfa3d9b882a382fa281fe33",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "树状数组",
+      "category": "数据结构",
+      "example": "P1966",
+      "sha256": "c850cc807e9d83de15d58255de64067983b2b1843174198b6b12db94e90e5a48",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "置换环分解",
+      "category": "tirick",
+      "example": "ABC350C",
+      "sha256": "547d81498a487f3369404bfb1443343e5e4d7b4f7d8114e4ea82d67bfa7fd231",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "置换环分解",
+      "category": "tirick",
+      "example": "ABC247F",
+      "sha256": "823f3a57d50880a0dfc4f02ea76913d5f810a84b5362fbbdbb4aabd882e46395",
+      "compiled": true,
+      "sample_tests": 2
+    },
+    {
+      "topic": "置换环分解",
+      "category": "tirick",
+      "example": "ABC436E",
+      "sha256": "c748e87db3a1a7c59f723cbe54382149f52741ea8dc693bca7f8df90b991f5be",
+      "compiled": true,
+      "sample_tests": 3
+    },
+    {
+      "topic": "曼哈顿距离坐标旋转",
+      "category": "tirick",
+      "example": "ABC178E",
+      "sha256": "8b6ffc42acb48ce7aedb19f7c0728127572e50b93409fd5dc820978f17724eb9",
+      "compiled": true,
+      "sample_tests": 1
+    },
+    {
+      "topic": "曼哈顿距离坐标旋转",
+      "category": "tirick",
+      "example": "Typical90036",
+      "sha256": "59ae3990f3215c6f8fd8db4f4df3cf4134481c181fc379c5df55807c3bb9b958",
+      "compiled": true,
+      "sample_tests": 2
+    },
+    {
+      "topic": "曼哈顿距离坐标旋转",
+      "category": "tirick",
+      "example": "ABC437F",
+      "sha256": "5ee99d56ba4650a54905e3dadedbe59f60a76f58c3f82849c80b9f86e7a818e6",
+      "compiled": true,
+      "sample_tests": 2
+    },
+    {
+      "topic": "对顶堆与中位数",
+      "category": "数据结构",
+      "example": "ABC127F",
+      "sha256": "d62d6a045eb5ad10029c2b6bfd5147f117fc4a6731d4e3442898ec2e56a90b7f",
+      "compiled": true,
+      "sample_tests": 1
+    },
+    {
+      "topic": "对顶堆与中位数",
+      "category": "数据结构",
+      "example": "P1168",
+      "sha256": "e336a96cfedb43e01919f78c883886317df1444a33eb094b7bf25b06a550f728",
+      "compiled": true,
+      "sample_tests": 0
+    },
+    {
+      "topic": "对顶堆与中位数",
+      "category": "数据结构",
+      "example": "LeetCode480",
+      "sha256": "852555bfcb9b042cb6020719bc44647277297d06c86229d70e9ff9a537bdf4c1",
+      "compiled": true,
+      "sample_tests": 1
+    },
+    {
+      "topic": "二状态树形背包",
+      "category": "dp",
+      "example": "Gym102992M",
+      "sha256": "9c80d0bad4f2d94ae3399ced857331988dd03c6f1e857d05bec17e9ee48baaa8",
+      "compiled": true,
+      "sample_tests": 1
+    },
+    {
+      "topic": "二状态树形背包",
+      "category": "dp",
+      "example": "P2016",
+      "sha256": "cdce00bb7aee7f10a167688fc314ef0ba97459af472eec456ecf06c3e199d916",
+      "compiled": true,
+      "sample_tests": 0
+    }
+  ],
+  "oracles": [
+    {
+      "topic": "树上不相交给定路径",
+      "cases": 500,
+      "result": "全部通过",
+      "seed": 20261011
+    },
+    {
+      "topic": "祖先路径最小费用覆盖",
+      "cases": 600,
+      "result": "全部通过",
+      "seed": 20261011
+    },
+    {
+      "topic": "二状态树形背包",
+      "cases": 500,
+      "result": "全部通过",
+      "seed": 20261011
+    },
+    {
+      "topic": "区间强制对象分治",
+      "cases": 600,
+      "result": "全部通过",
+      "seed": 20261011
+    },
+    {
+      "topic": "扩展Lucas",
+      "cases": 700,
+      "result": "全部通过",
+      "seed": 20261011
+    },
+    {
+      "topic": "BSGS离散对数",
+      "cases": 1200,
+      "result": "全部通过",
+      "seed": 20261011
+    },
+    {
+      "topic": "扩展欧拉与指数塔",
+      "cases": 600,
+      "result": "全部通过",
+      "seed": 20261011
+    },
+    {
+      "topic": "数位背包",
+      "cases": 650,
+      "result": "全部通过",
+      "seed": 20261011
+    },
+    {
+      "topic": "置换环分解",
+      "cases": 400,
+      "result": "全部通过",
+      "seed": 20261011
+    },
+    {
+      "topic": "基环树最大权独立集",
+      "cases": 500,
+      "result": "全部通过",
+      "seed": 20261011
+    },
+    {
+      "topic": "基环树最长路径与断环直径",
+      "cases": 300,
+      "result": "全部通过",
+      "seed": 20261011
+    },
+    {
+      "topic": "括号计数与无歧义区间DP",
+      "cases": 600,
+      "result": "全部通过",
+      "seed": 20261011
+    },
+    {
+      "topic": "Kingdom军队遍历树DP",
+      "cases": 100,
+      "result": "全部通过",
+      "seed": 20261011
+    },
+    {
+      "topic": "Crystalfly三状态树DP",
+      "cases": 100,
+      "result": "全部通过",
+      "seed": 20261011
+    },
+    {
+      "topic": "有上下界可行流与最大流",
+      "cases": 400,
+      "result": "全部通过",
+      "seed": 20261011
+    },
+    {
+      "topic": "有上下界可行流与最大流",
+      "cases": 400,
+      "result": "全部通过",
+      "seed": 20261011
+    },
+    {
+      "topic": "最小费用最大流",
+      "cases": 400,
+      "result": "全部通过",
+      "seed": 20261011
+    }
+  ]
+}

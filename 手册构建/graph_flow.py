@@ -1,0 +1,34 @@
+from common import *
+
+flow='template<typename T>\n'+source_struct('图/图论竞赛复习_严格课件注释版.md','FlowGraph')
+cut=r'''vector<int> cut_side(){vector<int>vis(vtot+1);queue<int>q;q.push(s);vis[s]=1;while(!q.empty()){int u=q.front();q.pop();for(int i=head[u];i!=-1;i=e[i].nxt)if(e[i].f>0&&!vis[e[i].v]){vis[e[i].v]=1;q.push(e[i].v);}}return vis;}'''
+flow=flow[:flow.rfind('};')]+cut+'\n};\n'
+add('图论','Dinic最大流','FlowGraph',flow,'整数非负容量网络最大流；保留head/dis/cur/e与递归DFS。','一般O(V^2 E)时间、O(V+E)空间；单位容量二分匹配有更强界。',[('init(s,t,V)','清空所有旧残量，s!=t'),('addedge(u,v,c)','返回前etot是正向边号，反向边号i^1'),('dinic()','本次新增流量；首次init后即完整最大流'),('cut_side()','完整最大流后取源侧残量可达点')],['原容量与残量不能混用；方案恢复要保存正向边号。','容量总和和流量累计不得溢出long long；极深增广路有递归栈风险。'],['图/图论竞赛复习_严格课件注释版.md'],[
+example('P3376','网络最大流','https://www.luogu.com.cn/problem/P3376','有向容量图求源到汇最大流。','每条原边配反向撤销边，Dinic反复分层增广。','init(s,t,n)，addedge，dinic。','O(V^2 E)时间、O(V+E)空间。',r'''void solve(){int n,m,s,t;cin>>n>>m>>s>>t;FlowGraph<int>g;g.init(s,t,n);while(m--){int u,v,c;cin>>u>>v>>c;g.addedge(u,v,c);}cout<<g.dinic()<<'\n';}'''),
+example('P2763','试题库问题','https://www.luogu.com.cn/problem/P2763','选题满足各类别需求，每道题最多用一次，输出分配。','源到类别为需求，类别到可用题为1，题到汇为1。','保存类别到题正向边号；总流达标后残量0的选择边为分配。','一般O(V^2 E)时间、O(V+E)空间。',r'''void solve(){int k,n;cin>>k>>n;int s=k+n+1,t=s+1;FlowGraph<int>g;g.init(s,t,t);int need=0;for(int c=1,x;c<=k;c++){cin>>x;need+=x;g.addedge(s,c,x);}vector<array<int,3>>chosen;for(int j=1;j<=n;j++){int p;cin>>p;while(p--){int c;cin>>c;chosen.push_back({c,j,g.etot});g.addedge(c,k+j,1);}g.addedge(k+j,t,1);}if(g.dinic()!=need){cout<<"No Solution!\n";return;}vector<vector<int>>ans(k+1);for(auto[c,j,id]:chosen)if(g.e[id].f==0)ans[c].push_back(j);for(int c=1;c<=k;c++){cout<<c<<":";for(int j:ans[c])cout<<' '<<j;cout<<'\n';}}''')])
+
+add('图论','最小割建模','FlowGraph',flow,'复用Dinic，支持最大权闭合子图、二元选择与二分图最大权独立集。','最大流一般O(V^2 E)，源侧恢复O(V+E)；空间O(V+E)。',[('dinic()','最大流值等于最小割'),('cut_side()','1为源侧，0为汇侧'),('addedge(u,v,INF)','禁止把u源侧、v汇侧；INF须超过有限割上界')],['选A的代价接u->T，选B的代价接S->u，先写清源侧语义。','饱和边不一定属于同一个最小割，按源侧跨边恢复。'],['图/图论竞赛复习_严格课件注释版.md'],[
+example('P2774','方格取数问题','https://www.luogu.com.cn/problem/P2774','选不相邻的格子，使权值和最大。','棋盘二分图最大权独立集=总权-最小点覆盖；冲突边给INF。','S到黑格点权，白格到T点权，黑到相邻白INF，输出total-dinic。','O(V^2 E)时间、O(V+E)空间。',r'''void solve(){int n,m;cin>>n>>m;vector<vector<int>>a(n,vector<int>(m));int total=0;for(auto&row:a)for(int&x:row){cin>>x;total+=x;}int s=n*m+1,t=s+1;FlowGraph<int>g;g.init(s,t,t);int dx[4]={1,-1,0,0},dy[4]={0,0,1,-1};for(int i=0;i<n;i++)for(int j=0;j<m;j++){int u=i*m+j+1;if((i+j)%2==0){g.addedge(s,u,a[i][j]);for(int k=0;k<4;k++){int x=i+dx[k],y=j+dy[k];if(0<=x&&x<n&&0<=y&&y<m)g.addedge(u,x*m+y+1,total+1);}}else g.addedge(u,t,a[i][j]);}cout<<total-g.dinic()<<'\n';}'''),
+example('P2762','太空飞行计划问题','https://www.luogu.com.cn/problem/P2762','实验带收益并依赖设备，设备有费用，求最优实验设备集合。','选择实验必须选择依赖设备，是最大权闭合子图。','收益S->实验，费用设备->T，实验->设备INF；cut_side恢复选点。','O(V^2 E)时间、O(V+E)空间。',r'''void solve(){int m,n;cin>>m>>n;string line;getline(cin,line);vector<int>profit(m+1);vector<vector<int>>need(m+1);int total=0;for(int i=1;i<=m;i++){getline(cin,line);istringstream in(line);in>>profit[i];total+=profit[i];int x;while(in>>x)need[i].push_back(x);}vector<int>cost(n+1);for(int j=1;j<=n;j++)cin>>cost[j];int s=m+n+1,t=s+1;FlowGraph<int>g;g.init(s,t,t);for(int i=1;i<=m;i++){g.addedge(s,i,profit[i]);for(int j:need[i])g.addedge(i,m+j,total+1);}for(int j=1;j<=n;j++)g.addedge(m+j,t,cost[j]);int ans=total-g.dinic();auto vis=g.cut_side();for(int i=1;i<=m;i++)if(vis[i])cout<<i<<' ';cout<<'\n';for(int j=1;j<=n;j++)if(vis[m+j])cout<<j<<' ';cout<<'\n'<<ans<<'\n';}''')])
+
+add('图论','Prim最小生成树','Prim',r'''
+struct Prim {
+    struct edge{int v,w;};int n;vector<vector<edge>>e;
+    void init(int n_){n=n_;e.assign(n+1,{});}
+    void addedge(int u,int v,int w){e[u].push_back({v,w});e[v].push_back({u,w});}
+    pair<bool,int> run(int s=1){vector<int>vis(n+1);priority_queue<pair<int,int>,vector<pair<int,int>>,greater<pair<int,int>>>q;q.push({0,s});int total=0,count=0;while(!q.empty()){auto[w,u]=q.top();q.pop();if(vis[u])continue;vis[u]=1;total+=w;count++;for(auto[v,c]:e[u])if(!vis[v])q.push({c,v});}return {count==n,total};}
+};
+''','堆优化Prim无向图最小生成树；负边也可用；返回连通性与权值和。','O(m log m)堆操作上界，空间O(n+m)。',[('addedge(u,v,w)','无向边'),('run(s)','返回{是否全图连通,生成树权重}')],['不要把边权当成Dijkstra距离；每次选跨割的最小边。','不连通时返回的是源所在块生成树和，不能当全图MST。'],['图论/prim.cpp'],[
+example('P3366','最小生成树','https://www.luogu.com.cn/problem/P3366','求MST，不连通输出orz。','无向图跨割最小边贪心满足MST性质。','init、addedge、run，先判断bool。','O(m log m)时间、O(n+m)空间。',r'''void solve(){int n,m;cin>>n>>m;Prim g;g.init(n);while(m--){int u,v,w;cin>>u>>v>>w;g.addedge(u,v,w);}auto[ok,ans]=g.run();if(ok)cout<<ans<<'\n';else cout<<"orz\n";}'''),
+example('ABC065D','Built','https://atcoder.jp/contests/abc065/tasks/arc076_b','平面点间建路，代价min(|dx|,|dy|)，求最小总费用。','按x/y排序的相邻点边足以保留MST；把完全图稀疏化后运行Prim。','两种排序加相邻边，权值取真实min差；run。','O(n log n)时间、O(n)空间。',r'''void solve(){int n;cin>>n;vector<array<int,3>>a(n);for(int i=0;i<n;i++){cin>>a[i][0]>>a[i][1];a[i][2]=i+1;}Prim g;g.init(n);for(int dim=0;dim<2;dim++){sort(a.begin(),a.end(),[&](auto x,auto y){return x[dim]<y[dim];});for(int i=1;i<n;i++)g.addedge(a[i-1][2],a[i][2],min(llabs(a[i][0]-a[i-1][0]),llabs(a[i][1]-a[i-1][1])));}cout<<g.run().second<<'\n';}''')])
+
+add('图论','拓扑排序','Topo',r'''
+struct Topo {
+    int n;vector<vector<int>>edge;vector<int>d;
+    void init(int n_){n=n_;edge.assign(n+1,{});d.assign(n+1,0);}
+    void addedge(int u,int v){edge[u].push_back(v);d[v]++;}
+    vector<int>toposort(bool lex=false){vector<int>deg=d,res;queue<int>q;priority_queue<int,vector<int>,greater<int>>pq;for(int i=1;i<=n;i++)if(!deg[i]){if(lex)pq.push(i);else q.push(i);}while(lex?!pq.empty():!q.empty()){int u;if(lex){u=pq.top();pq.pop();}else{u=q.front();q.pop();}res.push_back(u);for(int v:edge[u])if(!--deg[v]){if(lex)pq.push(v);else q.push(v);}}return res;}
+};
+''','Kahn拓扑序，保留原队列写法；可选最小堆得到字典序最小拓扑序。','队列O(n+m)，字典序O((n+m)log n)，空间O(n+m)。',[('toposort(false)','返回拓扑序，少于n表示有环'),('toposort(true)','字典序最小'),('d','原始入度保留，重复调用不消耗')],['一般图不能强行假定DAG；必须检查返回长度。','多条重复边各自计入度，扫描时也各自减1。'],['图论/拓扑.cpp'],[
+example('P1137','旅行计划','https://www.luogu.com.cn/problem/P1137','DAG中每个终点最多经过多少城市。','拓扑顺序做最长路，dp[v]=max(dp[v],dp[u]+1)。','按toposort遍历，输出每点dp。','O(n+m)时间与空间。',r'''void solve(){int n,m;cin>>n>>m;Topo g;g.init(n);while(m--){int u,v;cin>>u>>v;g.addedge(u,v);}vector<int>dp(n+1,1);for(int u:g.toposort())for(int v:g.edge[u])dp[v]=max(dp[v],dp[u]+1);for(int i=1;i<=n;i++)cout<<dp[i]<<'\n';}'''),
+example('ABC223D','Restricted Permutation','https://atcoder.jp/contests/abc223/tasks/abc223_d','给先后约束，求字典序最小排列，无解-1。','每步取当前所有零入度点中的最小点。','toposort(true)，长度<n判环。','O((n+m)log n)时间、O(n+m)空间。',r'''void solve(){int n,m;cin>>n>>m;Topo g;g.init(n);while(m--){int u,v;cin>>u>>v;g.addedge(u,v);}auto ans=g.toposort(true);if((int)ans.size()!=n){cout<<-1<<'\n';return;}for(int i=0;i<n;i++)cout<<ans[i]<<(i+1==n?'\n':' ');}''')])
