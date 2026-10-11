@@ -3,16 +3,18 @@ using namespace std;
 #define int long long
 
 // 动态开点权值线段树：单点加减 / 值域计数 / 第 k 小与第 k 大
-// 支持重复元素。维护的是数值出现次数，而不是数组下标。
+// 支持重复元素。插入、删除及区间查询都使用 info；第 k 小/大返回权值。
+struct info {
+    int cnt = 0;  // 出现次数，插入 +1，删除 -1
+};
+
+info operator+(const info& l, const info& r) {
+    info res;
+    res.cnt = l.cnt + r.cnt;
+    return res;
+}
+
 struct WeightSegTree {
-    struct info {
-        int cnt = 0;
-    };
-
-    friend info operator+(const info& l, const info& r) {
-        return {l.cnt + r.cnt};
-    }
-
     struct node {
         info val;
         int32_t lc = 0, rc = 0;
@@ -46,15 +48,15 @@ struct WeightSegTree {
         seg[id].val = seg[ls(id)].val + seg[rs(id)].val;
     }
 
-    // 单点修改：v=1 插入，v=-1 删除；删除前需确保元素存在
-    int change(int id, int l, int r, int pos, int v) {
+    // 单点修改：v 是 info 增量，{1} 插入，{-1} 删除
+    int change(int id, int l, int r, int pos, const info& v) {
         if (!id) {
-            assert(v > 0);
+            assert(v.cnt > 0);
             id = newnode();
         }
         if (l == r) {
-            assert(seg[id].val.cnt + v >= 0);
-            seg[id].val.cnt += v;
+            assert(seg[id].val.cnt + v.cnt >= 0);
+            seg[id].val = seg[id].val + v;
             return id;
         }
         int mid = (l + r) >> 1;
@@ -69,23 +71,27 @@ struct WeightSegTree {
         return id;
     }
 
-    void change(int pos, int v = 1) {
-        assert(L <= pos && pos <= R && v != 0);
+    void change(int pos, const info& v) {
+        assert(L <= pos && pos <= R && v.cnt != 0);
         root = change(root, L, R, pos, v);
     }
 
-    // 查询值域 [ql, qr] 中元素的个数（包括重复）
-    int qur(int id, int l, int r, int ql, int qr) {
-        if (!id || ql > r || qr < l) return 0;
-        if (ql <= l && r <= qr) return seg[id].val.cnt;
+    // 查询值域 [ql, qr]，直接返回聚合信息 info
+    info qur(int id, int l, int r, int ql, int qr) {
+        if (!id || ql > r || qr < l) return {};
+        if (ql <= l && r <= qr) return seg[id].val;
         int mid = (l + r) >> 1;
         return qur(ls(id), l, mid, ql, qr)
              + qur(rs(id), mid + 1, r, ql, qr);
     }
 
-    int qur(int l, int r) {
-        if (l > r) return 0;
+    info qur(int l, int r) {
+        if (l > r) return {};
         return qur(root, L, R, l, r);
+    }
+
+    info all() {
+        return seg[root].val;
     }
 
     // 线段树上二分：查询第 k 小（k 从 1 开始）
@@ -114,15 +120,16 @@ struct WeightSegTree {
 void solve() {
     // 使用示例：值域 [1, 1e9]
     // WeightSegTree seg(1, 1000000000);
-    // seg.change(3);       // 插入 3
-    // seg.change(5);       // 插入 5
-    // seg.change(5);       // 允许重复
-    // seg.change(8);       // 插入 8
-    // seg.qur(3, 5);       // 3（值域内的元素个数）
-    // seg.kth(2);          // 5（第 2 小）
-    // seg.kth_max(1);      // 8（第 1 大）
-    // seg.change(5, -1);   // 删除一个 5
-    // seg.size();          // 3（集合大小）
+    // seg.change(3, {1});    // 插入 3
+    // seg.change(5, {1});    // 插入 5
+    // seg.change(5, {1});    // 允许重复
+    // seg.change(8, {1});    // 插入 8
+    // seg.qur(3, 5).cnt;     // 3（查询返回 info）
+    // seg.kth(2);           // 5（第 2 小）
+    // seg.kth_max(1);       // 8（第 1 大）
+    // seg.change(5, {-1});  // 删除一个 5
+    // seg.all().cnt;        // 3（整棵树的信息）
+    // seg.size();           // 3（集合大小）
 }
 
 signed main() {
