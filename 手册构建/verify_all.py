@@ -16,7 +16,7 @@ for t in topics:
             for a,b in e['replace']:
                 assert a in body,(t['name'],a)
                 body=body.replace(a,b)
-        code=HEADER+body+'\n'+e['code']+'\n'+MAIN
+        code=e.get('full_code') or HEADER+body+'\n'+e['code']+'\n'+MAIN
         sha=hashlib.sha256(code.encode()).hexdigest()
         jobs.append((t,e,code,sha))
 

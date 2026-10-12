@@ -1,6 +1,6 @@
 from common import *
 import subprocess, hashlib, concurrent.futures
-topics=json.loads(CATALOG.read_text(encoding='utf-8'));B=ROOT/'.work_review/handbook/standalone';B.mkdir(parents=True,exist_ok=True)
+topics=[t for t in json.loads(CATALOG.read_text(encoding='utf-8')) if t.get('has_template',True)];B=ROOT/'.work_review/handbook/standalone';B.mkdir(parents=True,exist_ok=True)
 def work(t):
     code=t['code'];sha=hashlib.sha256(code.encode()).hexdigest();cpp=B/(sha[:16]+'.cpp');exe=cpp.with_suffix('.exe');cpp.write_text(code,encoding='utf-8')
     r=dict(topic=t['name'],sha256=sha,compiled=True,errors='')

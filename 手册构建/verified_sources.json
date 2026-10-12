@@ -1665,28 +1665,6 @@
     }
   },
   {
-    "topic": "Crystalfly三状态树DP",
-    "id": "Gym103470H",
-    "url": "https://codeforces.com/gym/103470/problem/H",
-    "source_status": "已读取原站题面并核实题号、模型与输入格式",
-    "evidence": {
-      "cache": ".work_review\\handbook\\web_sources\\batch_01.txt",
-      "title": "Problem - H - Codeforces (https://codeforces.com/gym/103470/problem/H)",
-      "statement_detected": true
-    }
-  },
-  {
-    "topic": "Kingdom军队遍历树DP",
-    "id": "Gym102769K",
-    "url": "https://codeforces.com/gym/102769/problem/K",
-    "source_status": "已读取原站题面并核实题号、模型与输入格式",
-    "evidence": {
-      "cache": ".work_review\\handbook\\web_sources\\batch_01.txt",
-      "title": "Problem - K - Codeforces (https://codeforces.com/gym/102769/problem/K)",
-      "statement_detected": true
-    }
-  },
-  {
     "topic": "区间强制对象分治",
     "id": "P4766",
     "url": "https://www.luogu.com.cn/problem/P4766",
@@ -2117,6 +2095,39 @@
     "evidence": {
       "cache": ".work_review\\handbook\\web_sources\\batch_05.txt",
       "title": "P2016 [SEERC 2000] 战略游戏 - 洛谷 (https://www.luogu.com.cn/problem/P2016)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "树上行走与返回状态设计",
+    "id": "ABC361E",
+    "url": "https://atcoder.jp/contests/abc361/tasks/abc361_e",
+    "source_status": "已读取AtCoder原站题面，核实n≤2e5、正边权≤1e9及两个样例",
+    "evidence": {
+      "title": "AtCoder ABC361 E - Tree and Hamilton Path 2",
+      "statement_detected": true,
+      "method": "读取AtCoder原站题面、约束与两个样例，2026-10-12"
+    }
+  },
+  {
+    "topic": "树上行走与返回状态设计",
+    "id": "Gym102769K",
+    "url": "https://codeforces.com/gym/102769/problem/K",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_01.txt",
+      "title": "Problem - K - Codeforces (https://codeforces.com/gym/102769/problem/K)",
+      "statement_detected": true
+    }
+  },
+  {
+    "topic": "树上行走与返回状态设计",
+    "id": "Gym103470H",
+    "url": "https://codeforces.com/gym/103470/problem/H",
+    "source_status": "已读取原站题面并核实题号、模型与输入格式",
+    "evidence": {
+      "cache": ".work_review\\handbook\\web_sources\\batch_01.txt",
+      "title": "Problem - H - Codeforces (https://codeforces.com/gym/103470/problem/H)",
       "statement_detected": true
     }
   }

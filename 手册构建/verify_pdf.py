@@ -2,7 +2,7 @@ from common import *
 from pypdf import PdfReader
 import subprocess, math, concurrent.futures, hashlib, os, shutil
 from PIL import Image, ImageDraw, ImageFont
-PDF=ROOT/'output/pdf/ACM_ICPC 个人算法模板与例题手册.pdf'
+PDF=ROOT/'output/pdf/ACM_ICPC_个人算法模板与思维训练手册.pdf'
 OUT=ROOT/'tmp/pdfs';OUT.mkdir(parents=True,exist_ok=True)
 POP=os.environ.get('PDFTOPPM') or shutil.which('pdftoppm')
 if not POP:
@@ -55,6 +55,6 @@ for j in range(0,len(pages),48):
     sheet.save(OUT/f'contact-{j//48+1:02}.jpg',quality=92)
 selection=sorted(n for n in set([1,2,3,4,5,6,7,8,9,10,20,40,80,120,160,200,240,280,320,360,400,len(reader.pages)]+[x['page'] for x in meta['bookmarks'].values() if x['level']==0]) if n<=len(reader.pages))
 for n in selection:subprocess.run([POP,'-f',str(n),'-l',str(n),'-r','130','-png','-singlefile',str(PDF),str(OUT/f'detail-{n:03}')],capture_output=True,check=True,timeout=60)
-result=dict(pages=len(reader.pages),links=links,bookmarks=len(out),fonts=fonts,all_pages_rendered=len(pages),detail_pages=selection,sha256=hashlib.sha256(PDF.read_bytes()).hexdigest(),bytes=PDF.stat().st_size,layout_missing_glyphs=meta['missing_glyphs'],layout_overflow=meta['overflow'])
+result=dict(edition='training-v2',pages=len(reader.pages),links=links,bookmarks=len(out),fonts=fonts,all_pages_rendered=len(pages),detail_pages=selection,sha256=hashlib.sha256(PDF.read_bytes()).hexdigest(),bytes=PDF.stat().st_size,layout_missing_glyphs=meta['missing_glyphs'],layout_overflow=meta['overflow'])
 (ROOT/'手册构建/pdf_check.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
 print('PDF QA:',len(reader.pages),'A4 pages;',links,'links;',len(out),'bookmarks;',len(pages),'pages rendered;',len(selection),'high-resolution details')

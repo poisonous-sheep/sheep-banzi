@@ -1,31 +1,77 @@
 {
-  "topics": 85,
-  "templates": 85,
-  "examples": 176,
-  "standalone_compiled": 85,
-  "combined_compiled": 176,
-  "recorded_runs": 87,
-  "oracle_groups": 17,
-  "oracle_cases": 8550,
-  "primary_source_examples": 176,
-  "pdf_pages": 320,
-  "pdf_links": 889,
-  "pdf_bookmarks": 272,
-  "pdf_sha256": "bf08cfce3c843b8468867c94b9417783fdfd2a69c731bf599c031b037821b38e",
-  "pdf_bytes": 1389579,
+  "edition": "training-v2",
+  "topics": 84,
+  "kinds": {
+    "模板型": 44,
+    "混合型": 14,
+    "思维型": 26
+  },
+  "templates": 51,
+  "examples": 177,
+  "standalone_templates_compiled": 51,
+  "example_programs_compiled": 177,
+  "function_programs": 65,
+  "recorded_runs": 89,
+  "oracle_groups": 32,
+  "oracle_cases": 15350,
+  "primary_source_examples": 177,
   "original_note_hash_checks": 21,
-  "remote_snapshot_files": 45,
   "online_submissions": 0,
-  "gaps": [
-    {
-      "name": "Crystalfly三状态树DP",
-      "reason": "目前仅核实1道独立原题。洛谷P9847、QOJ6438为同题镜像，不计作第二道例题。"
-    },
-    {
-      "name": "Kingdom军队遍历树DP",
-      "reason": "目前仅核实1道独立原题；未将另一种军队同时移动的题混作本板子例题。"
-    }
+  "missing_originals": [
+    "代码源272/273，用户同意相似题替代"
   ],
+  "example_count_gaps": [],
+  "pdf": {
+    "edition": "training-v2",
+    "pages": 369,
+    "links": 1304,
+    "bookmarks": 280,
+    "fonts": {
+      "/Helvetica": false,
+      "/AAAAAA+SimHei": true,
+      "/AAAAAB+SimHei": true,
+      "/AAAAAC+SimHei": true,
+      "/AAAAAA+FangSong": true,
+      "/AAAAAB+FangSong": true,
+      "/AAAAAC+FangSong": true,
+      "/AAAAAD+FangSong": true,
+      "/AAAAAE+FangSong": true,
+      "/AAAAAA+Consolas": true
+    },
+    "all_pages_rendered": 369,
+    "detail_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      20,
+      40,
+      80,
+      120,
+      160,
+      172,
+      194,
+      200,
+      240,
+      280,
+      301,
+      320,
+      357,
+      360,
+      369
+    ],
+    "sha256": "f0a20f7a3db8eb11ab5b10d9ea0d328c1e33f2f96886f22b2d349e821a93e8dc",
+    "bytes": 1694818,
+    "layout_missing_glyphs": [],
+    "layout_overflow": []
+  },
   "compile": [
     {
       "topic": "普通线段树",
@@ -751,7 +797,7 @@
       "topic": "极角排序",
       "category": "杂",
       "example": "CF598C",
-      "sha256": "d0ca05e20f1934278692e98b1078de13358571624f9c295099bbfb197635dc71",
+      "sha256": "ad57cf284df296183ac17eb6b3b44ba9bc7b505d9a66c0eaab1c2525c6f3bcda",
       "compiled": true,
       "sample_tests": 0
     },
@@ -759,7 +805,7 @@
       "topic": "极角排序",
       "category": "杂",
       "example": "ABC139F",
-      "sha256": "8f3a121ed594b0a8aac50717f6db912e6f1c86b26f1f40ea64637ffac0603fb0",
+      "sha256": "f4717e81d5b8a62be8f1e652e852651ec5702ed8346738c1fd8fd6bd09abbc4b",
       "compiled": true,
       "sample_tests": 6
     },
@@ -783,7 +829,7 @@
       "topic": "区间石子合并",
       "category": "dp",
       "example": "DP_N",
-      "sha256": "ed22d8afc9f269a52e33ec423fb0e0303e77eb5a115f579604f5b120e848ba32",
+      "sha256": "62ffd73d17c3244a185fbd339a5c0398ab7d0d6193a80ec7c3f3551431be580f",
       "compiled": true,
       "sample_tests": 5
     },
@@ -791,7 +837,7 @@
       "topic": "区间石子合并",
       "category": "dp",
       "example": "P1880",
-      "sha256": "ea3fed8f2f80b1cdfc0e67cd3532d5e462b8eb128039e332ca8916d420b64915",
+      "sha256": "01d72b52d65792a7c59db3fac20ec3a07725ddb70fbcd289e64a360062a3783c",
       "compiled": true,
       "sample_tests": 0
     },
@@ -799,7 +845,7 @@
       "topic": "区间同色配对与涂色",
       "category": "dp",
       "example": "CF1132F",
-      "sha256": "aed75b9747246fbf092c50a18e59a1e63df4b0c313250e9f334556e5da82adb6",
+      "sha256": "6b11b71f2fc43cdb9d90aadbd854dc6ca3933d4994e4f7d321ac40895cd2a5b6",
       "compiled": true,
       "sample_tests": 0
     },
@@ -807,7 +853,7 @@
       "topic": "区间同色配对与涂色",
       "category": "dp",
       "example": "P4170",
-      "sha256": "33a969189772957358773911617032cb141d075261a472b063d8115acf763724",
+      "sha256": "b4d7987151bc79a1e024f037429223c8639cff6d6bd10a2fdbf2674c78f08b7f",
       "compiled": true,
       "sample_tests": 0
     },
@@ -815,7 +861,7 @@
       "topic": "括号计数与无歧义区间DP",
       "category": "dp",
       "example": "P7914",
-      "sha256": "cf754dd73c9f44d301af200cd8d359a059d1fd633bc027ea1a557e25e56bda89",
+      "sha256": "350729f96f6f8be28ae8c21b37d184629aeee2408fe106a78d37b3b56359b14e",
       "compiled": true,
       "sample_tests": 0
     },
@@ -823,7 +869,7 @@
       "topic": "括号计数与无歧义区间DP",
       "category": "dp",
       "example": "ABC312D",
-      "sha256": "4ecd0aa37e61eade91ee3013bc2de91c3a769220d3aab5d800ef5ae2fa81176b",
+      "sha256": "f28a03a386bb077490a5d82e45e860aaaef3ccb2abb29959c63d041004d48791",
       "compiled": true,
       "sample_tests": 3
     },
@@ -847,7 +893,7 @@
       "topic": "数位构造与不同数位限制",
       "category": "dp",
       "example": "CF1560F1",
-      "sha256": "5918e6ca4c93839e3b2807617c1917c2d1bad0f3d52a23fb748cf54233708dd0",
+      "sha256": "58f8fb4609ec16ea7055ac88db0215919b4be664a5bbd55a67abbd7cd51bde6a",
       "compiled": true,
       "sample_tests": 0
     },
@@ -855,7 +901,7 @@
       "topic": "数位构造与不同数位限制",
       "category": "dp",
       "example": "CF1560F2",
-      "sha256": "5918e6ca4c93839e3b2807617c1917c2d1bad0f3d52a23fb748cf54233708dd0",
+      "sha256": "58f8fb4609ec16ea7055ac88db0215919b4be664a5bbd55a67abbd7cd51bde6a",
       "compiled": true,
       "sample_tests": 0
     },
@@ -863,7 +909,7 @@
       "topic": "数位背包",
       "category": "dp",
       "example": "P3188",
-      "sha256": "334bc3926d0bbad74ead016f0895497a2514f0bd616633ee75c5ebcfd1c2e68f",
+      "sha256": "c1ba03a5c7948e3b6b0a267f1fdf6c2c97b93c64038d5953a441b4a750389444",
       "compiled": true,
       "sample_tests": 0
     },
@@ -871,7 +917,7 @@
       "topic": "数位背包",
       "category": "dp",
       "example": "P1048",
-      "sha256": "bac7e913b3aea2ceef1a45849f362ea531a694b4d1af38186c84564d9e59edce",
+      "sha256": "a6906f3fedc163b3961b3805f66ba40964e914c6b2671209c7f8394f901e83bf",
       "compiled": true,
       "sample_tests": 0
     },
@@ -879,7 +925,7 @@
       "topic": "进位支付与有符号数位",
       "category": "dp",
       "example": "ABC231E",
-      "sha256": "1d3e04af1c72c8bca304e81d54f8006e6d2d11d134db8ecbc93bfe60e6bcb773",
+      "sha256": "5b5bf4136534e5f58b16563fa287be0d1d7a676a2cf5aafea3b4cd8a23333989",
       "compiled": true,
       "sample_tests": 2
     },
@@ -887,7 +933,7 @@
       "topic": "进位支付与有符号数位",
       "category": "dp",
       "example": "ABC155E",
-      "sha256": "140359c82080de9a335dc44e512c410902a2772095d60c34511a320a52e3f1ae",
+      "sha256": "2c483c7fa04b0ca58fe4290bc6f530e86d34467cf87ed7d9214789c81a0f753e",
       "compiled": true,
       "sample_tests": 2
     },
@@ -895,7 +941,7 @@
       "topic": "二进制位贡献与Popcount计数",
       "category": "dp",
       "example": "Gym102832D",
-      "sha256": "5ac15fb75e9f346ff8039a521775586bd297499a1c429845c14b914d466ccbde",
+      "sha256": "8aea4fdd201449adc519bcad76cae0242f1e772a203bb7ed50448bc8e0eb8867",
       "compiled": true,
       "sample_tests": 1
     },
@@ -903,7 +949,7 @@
       "topic": "二进制位贡献与Popcount计数",
       "category": "dp",
       "example": "ABC356D",
-      "sha256": "33b6db3c0b145bf8f3d4446a17360d54f1b8594d2674499627d262c74e5e6428",
+      "sha256": "2a5cbb349adcf0420fae599711a7aa4e4746d10682033d2973202229905c16a7",
       "compiled": true,
       "sample_tests": 2
     },
@@ -911,7 +957,7 @@
       "topic": "二进制位贡献与Popcount计数",
       "category": "dp",
       "example": "P4317",
-      "sha256": "d5643045411b5d8fbf3a0f77a2afb047a126592b500d8d581f2d872cae3b8298",
+      "sha256": "36dd55475d3b9f665bac81f18552887a02ec14b85009b9533fe2d573b83be869",
       "compiled": true,
       "sample_tests": 0
     },
@@ -919,7 +965,7 @@
       "topic": "树上最大连通块权和",
       "category": "dp",
       "example": "P1122",
-      "sha256": "d8f7ae40884edfc9857b22791c4911fa60e55b12b7946b9780182ac79dd0cc18",
+      "sha256": "a37aae027ef9ecb65096bd54f56d1fe74af88de0b83c4ed0581536baff3be13c",
       "compiled": true,
       "sample_tests": 0
     },
@@ -927,7 +973,7 @@
       "topic": "树上最大连通块权和",
       "category": "dp",
       "example": "CF1324F",
-      "sha256": "8e029c18b8138defb43bbd3624367ab9fbc858c6386b199a3fdfa962b456478e",
+      "sha256": "897fd2bdbb31102dfae3270a0a8510a123c2e1918206d70c88eac6ba349a7a51",
       "compiled": true,
       "sample_tests": 1
     },
@@ -935,7 +981,7 @@
       "topic": "子树合并背包",
       "category": "dp",
       "example": "P2014",
-      "sha256": "bf6cf5411df80af2ec838c384f0f3a1f09185e5005975c574bfa8dacc6ff4316",
+      "sha256": "882fb5a97c1cc073cccd205456c6a3cb6b4ea27b22bbf215be8d22573c84831e",
       "compiled": true,
       "sample_tests": 0
     },
@@ -943,7 +989,7 @@
       "topic": "子树合并背包",
       "category": "dp",
       "example": "P1273",
-      "sha256": "48e473419b5a825c3e00c29862636fc56fa47462f6e1aa92bc6748459d454a47",
+      "sha256": "2fdae97e4665f6a605870c357a1ad9578ab1bc60a12858f74efbb19efaaf7b67",
       "compiled": true,
       "sample_tests": 0
     },
@@ -951,7 +997,7 @@
       "topic": "DFS序依赖背包",
       "category": "dp",
       "example": "P2014",
-      "sha256": "7c73b841696113773aa1d4170766b79ddf6f41f4cbddf741d903051e1114695f",
+      "sha256": "03953fd5f08f0507f2fc8d0a0537fcb695dd70c894408d684431d3eefc3ef90a",
       "compiled": true,
       "sample_tests": 0
     },
@@ -959,7 +1005,7 @@
       "topic": "DFS序依赖背包",
       "category": "dp",
       "example": "P2515",
-      "sha256": "40430895af1b771862b50a935987a6303d7261f0d24ac828bb258a2291af206b",
+      "sha256": "035a0aeffcebaab1b7e5c6ff73966586eb2c8521cc22c7f46df1bd3027044fe6",
       "compiled": true,
       "sample_tests": 0
     },
@@ -967,7 +1013,7 @@
       "topic": "换根连通块计数",
       "category": "dp",
       "example": "DP_V",
-      "sha256": "b10818d6f177c15d31e9bb5f00c2eeb854ef921cff16de3d05aaccbb0c29c728",
+      "sha256": "7bb21cac05df6caf7dff4b407db5f3a677a4abd5be945acaea9da5cce7ab3849",
       "compiled": true,
       "sample_tests": 4
     },
@@ -975,7 +1021,7 @@
       "topic": "换根连通块计数",
       "category": "dp",
       "example": "CF543D",
-      "sha256": "77b5fc492192c10c8161bc86f236beadd88fa45fce97db5dcf0896b4e7a5b6ad",
+      "sha256": "a4e6453606b8af466c0b2161e51a4c7b779bdb403b8c05c890a1346fb23d2c4b",
       "compiled": true,
       "sample_tests": 0
     },
@@ -983,7 +1029,7 @@
       "topic": "树上距离分层计数",
       "category": "dp",
       "example": "CF1551F",
-      "sha256": "2f6416f6d20850af30ee43af17e23ecf5e45c02296a90e2d9e4cfd24f3c5fdaa",
+      "sha256": "f238ac7d116de5b0960436c6840f6fb08067a9be1c71c3b60b4aae6c2b0db369",
       "compiled": true,
       "sample_tests": 0
     },
@@ -991,7 +1037,7 @@
       "topic": "树上距离分层计数",
       "category": "dp",
       "example": "CF161D",
-      "sha256": "f0c68c8fc1657225be76999b3275c6d95d8d42185df2b32ecca26653b104b22f",
+      "sha256": "482ca81d4350305a4a28922ed95d6d318ebe75775808fddca8ca4aea19c850c0",
       "compiled": true,
       "sample_tests": 0
     },
@@ -1055,7 +1101,7 @@
       "topic": "启发式分治",
       "category": "数据结构",
       "example": "UVA1608",
-      "sha256": "cad739fa03ce58898a2f602dd81cdc39700d5d2f4e00cd11606de960b88aa9d5",
+      "sha256": "be352a4f5d329309d87fb796509ff5148454fbc1535c36a05d54a9fe2d6f3cda",
       "compiled": true,
       "sample_tests": 0
     },
@@ -1063,7 +1109,7 @@
       "topic": "启发式分治",
       "category": "数据结构",
       "example": "CF1156E",
-      "sha256": "2ccbcfd2592bfbd36832180e44798e1bfe1b855b30d3e88b2885015b027b8c3d",
+      "sha256": "e9860e52e768c74eefd6560de184307c939695fc446c7d08f97be331d4b5233f",
       "compiled": true,
       "sample_tests": 0
     },
@@ -1071,7 +1117,7 @@
       "topic": "基环树最大权独立集",
       "category": "图论",
       "example": "P2607",
-      "sha256": "1673da94d585adf8dff5d2c1fde4e1c181d9f1d806081ceacdfc96b3783f1eae",
+      "sha256": "4f409f148f4a32e0c7f069429127be9f09b8eb035b474cb298396beb60957421",
       "compiled": true,
       "sample_tests": 0
     },
@@ -1079,7 +1125,7 @@
       "topic": "基环树最大权独立集",
       "category": "图论",
       "example": "P1453",
-      "sha256": "c55a11faa9b40bde584c2fc333f9fca3e3dff2f596d19824a7b09a17ac658e43",
+      "sha256": "f5af1308d068524b6820a9cfc04db84e897c77deaaccb38f7c9fbb51581362fc",
       "compiled": true,
       "sample_tests": 0
     },
@@ -1087,7 +1133,7 @@
       "topic": "基环树最长路径与断环直径",
       "category": "图论",
       "example": "P4381",
-      "sha256": "84d039e242331106fa5ac732566ed7f929640efe9d2184d96d72da38024240b8",
+      "sha256": "27b957b949fec62fa6f89c2c758dc6bbc55b6401bb9de83c06236318ad0ebebf",
       "compiled": true,
       "sample_tests": 0
     },
@@ -1095,7 +1141,7 @@
       "topic": "基环树最长路径与断环直径",
       "category": "图论",
       "example": "CF835F",
-      "sha256": "6dfd242cdd3e4e295289b3d2f3c2ba75ef15855b434a6b372fd3c868373ea30a",
+      "sha256": "76987517164972eab2a671bf4ad99e00bb8b490c8f776d9d36e4a6c8bf50598f",
       "compiled": true,
       "sample_tests": 0
     },
@@ -1103,7 +1149,7 @@
       "topic": "自相似序列奇偶分治",
       "category": "dp",
       "example": "QOJ12409",
-      "sha256": "ce9a3464b022df1eb3462245437d25dd045b8e256a33bc8d5c6d14bc18d1eaf4",
+      "sha256": "c51adb7542de3d148f988864a10ee159e4c8ee38821d89ff21e2b1e218234768",
       "compiled": true,
       "sample_tests": 1
     },
@@ -1111,7 +1157,7 @@
       "topic": "自相似序列奇偶分治",
       "category": "dp",
       "example": "ABC242D",
-      "sha256": "52de35d4bb84ecc7ad42ffd08092f955abcaa75003f23c114b98304fe7af9eb1",
+      "sha256": "fc4d696f8d94c509ad783e83ad5e5349555f8c1b9e323dd9fbe4f38f5d1e640f",
       "compiled": true,
       "sample_tests": 1
     },
@@ -1119,7 +1165,7 @@
       "topic": "树上不相交给定路径",
       "category": "dp",
       "example": "HDU5293",
-      "sha256": "129e5ba335e910883628c9c01c3dcc9e82faaad734a9b5c31241ea6ea81b559a",
+      "sha256": "8da29983e204cf1c500f5837672b64a0b0c0954abf4202b6922b4c9a4b1cd8b8",
       "compiled": true,
       "sample_tests": 2
     },
@@ -1127,7 +1173,7 @@
       "topic": "树上不相交给定路径",
       "category": "dp",
       "example": "HDU4912",
-      "sha256": "f519ab05f20c47b278d13f3aa57c9e0531943c5ba6acf7beed8319187ad92845",
+      "sha256": "344c5c4d722691dc9c52fe04fc5bc629dc4c7cf54151b4de379e7d95b8756ea5",
       "compiled": true,
       "sample_tests": 2
     },
@@ -1135,7 +1181,7 @@
       "topic": "祖先路径最小费用覆盖",
       "category": "dp",
       "example": "CF1675D",
-      "sha256": "678e5cfb577926580504498fa2c50d1d4f4bff85854b33022b467259c03a2acc",
+      "sha256": "8e70336ee8fd5301eec181e937ea7fda484f86b3e1832fd838b27514fd520251",
       "compiled": true,
       "sample_tests": 1
     },
@@ -1143,23 +1189,7 @@
       "topic": "祖先路径最小费用覆盖",
       "category": "dp",
       "example": "CF671D",
-      "sha256": "a67b0ceabd684f6a47b310ae4cb03813403bc92dddbcfad4f5ab24e840c86feb",
-      "compiled": true,
-      "sample_tests": 1
-    },
-    {
-      "topic": "Crystalfly三状态树DP",
-      "category": "dp",
-      "example": "Gym103470H",
-      "sha256": "bff7649d04ff9105dfb2edeb7621dec459c5a30e9bc99f0903090849cb3e4d51",
-      "compiled": true,
-      "sample_tests": 1
-    },
-    {
-      "topic": "Kingdom军队遍历树DP",
-      "category": "dp",
-      "example": "Gym102769K",
-      "sha256": "f146bbb5e15cce288b19891dafbb343bd3b16610a1c84355991f9e5b94554f48",
+      "sha256": "ec7611be2f942adb85a6f957c03f5440a8eb2fef5f3fc32342aa195f21023c90",
       "compiled": true,
       "sample_tests": 1
     },
@@ -1167,7 +1197,7 @@
       "topic": "区间强制对象分治",
       "category": "dp",
       "example": "P4766",
-      "sha256": "3d91108115a5251bf137fed5cf8382c2a1b5cd8d6926710c6cb2f37018371fe0",
+      "sha256": "2f2bfd74cfcc5adebecc6415ab371be7a8b70b18fb75b2bdf97d2491d2524ded",
       "compiled": true,
       "sample_tests": 1
     },
@@ -1175,7 +1205,7 @@
       "topic": "区间强制对象分治",
       "category": "dp",
       "example": "UVA10003",
-      "sha256": "73c9c5e0e617f6938bef028ef43aafffd14acf903506fcd91680c561b6795817",
+      "sha256": "ab86d88ed09e9d8056653ccc60b7593b68c5fce3b0ef0959b74d0737a373e959",
       "compiled": true,
       "sample_tests": 1
     },
@@ -1183,7 +1213,7 @@
       "topic": "异或比较与最高不同位",
       "category": "tirick",
       "example": "CF1720D1",
-      "sha256": "5f0e57691452c7be590ba5168d6141c0af5291d50d30d518419a5a059322be92",
+      "sha256": "84a983f2a7ecd8f3f5fbf336165a6ec0b211cbb68166af5653fc88370255e150",
       "compiled": true,
       "sample_tests": 0
     },
@@ -1191,7 +1221,7 @@
       "topic": "异或比较与最高不同位",
       "category": "tirick",
       "example": "CF276D",
-      "sha256": "3518eeb3abfeae6701de8a9641349cd7349b62da74ecc3544c7e822295ff4a60",
+      "sha256": "dfb46c2a2df5c419c0b744e239626f64796caeb256d6a60477c751ce84842611",
       "compiled": true,
       "sample_tests": 0
     },
@@ -1199,7 +1229,7 @@
       "topic": "前缀关系计数",
       "category": "tirick",
       "example": "CF1398C",
-      "sha256": "b8a154ec1383505f619506d5a5871473f32d0de5e64e277d175c55d71f6a12b8",
+      "sha256": "445f9ca222e575eebbfa2a7792d20089db884f0ea82dd723b8047fd117bb6939",
       "compiled": true,
       "sample_tests": 0
     },
@@ -1207,7 +1237,7 @@
       "topic": "前缀关系计数",
       "category": "tirick",
       "example": "ABC105D",
-      "sha256": "a46bd2c221f435120d539a421b2ad41e6f8a4dc27c6c5ede5c9ed2b2f9943b5c",
+      "sha256": "86113228e0ad3568504f929c8a32e8d364aaf0cd4b1387ba6c875d1ba78107d7",
       "compiled": true,
       "sample_tests": 2
     },
@@ -1215,7 +1245,7 @@
       "topic": "同余差与GCD",
       "category": "tirick",
       "example": "CF1920C",
-      "sha256": "cd2f754971a78d74ec237f77e92866192bc273987243a3c9c63c3fd9191034a7",
+      "sha256": "d57e521c6ffec9a0eda1cdd63d0bb56fae391aed0b5b8e96081b4c53cca896d0",
       "compiled": true,
       "sample_tests": 0
     },
@@ -1223,7 +1253,7 @@
       "topic": "同余差与GCD",
       "category": "tirick",
       "example": "ABC109C",
-      "sha256": "3c3050810b48dfc34d2f847147fe69b2aff6cd3b922689bbc05136d26034ecc1",
+      "sha256": "133739e5fca06d5c4d1d7cb7256dbda242dabc51e3cab1cfe2d3b1c897537884",
       "compiled": true,
       "sample_tests": 2
     },
@@ -1247,7 +1277,7 @@
       "topic": "互质集合与GCD分类计数",
       "category": "数论",
       "example": "CF803F",
-      "sha256": "7aac55239493b80de96b57222e28120e4076c61aa484b9e0a21216bb6ffa6703",
+      "sha256": "96103a052255d1a50e144e83b4e1065540c5df0f0212ac95343965ee5308cd9e",
       "compiled": true,
       "sample_tests": 2
     },
@@ -1255,7 +1285,7 @@
       "topic": "互质集合与GCD分类计数",
       "category": "数论",
       "example": "CF839D",
-      "sha256": "bb311b3ed2c7ff51851f4bded3f4d9152b225afc39755c6cd358d48cd6308931",
+      "sha256": "10726e75e649c369214506f261e7ffe9d588f7db49ef75c477da3122f10c9e4d",
       "compiled": true,
       "sample_tests": 2
     },
@@ -1263,7 +1293,7 @@
       "topic": "LCM单行求和",
       "category": "数论",
       "example": "SP5971",
-      "sha256": "815d5e6a22818d8a25ef3c48b53baac0f4fe2c11fc6da4fa717ce422424ede65",
+      "sha256": "bffb430cb8be71d8f023cfcbdb57648ab59b5a6fc685a3b132bf4333bcdf4185",
       "compiled": true,
       "sample_tests": 1
     },
@@ -1271,7 +1301,7 @@
       "topic": "LCM单行求和",
       "category": "数论",
       "example": "P1891",
-      "sha256": "815d5e6a22818d8a25ef3c48b53baac0f4fe2c11fc6da4fa717ce422424ede65",
+      "sha256": "bffb430cb8be71d8f023cfcbdb57648ab59b5a6fc685a3b132bf4333bcdf4185",
       "compiled": true,
       "sample_tests": 0
     },
@@ -1279,7 +1309,7 @@
       "topic": "LCM矩形与集合求和",
       "category": "数论",
       "example": "P1829",
-      "sha256": "4f5b3c5bbee4d1870724375a8265cae3965d42cac51290ca1b607f7a17ca9653",
+      "sha256": "f2353354cc23a1c1f038625d50a5d9ed9dabc3900b05b46c750425e0532e619d",
       "compiled": true,
       "sample_tests": 0
     },
@@ -1287,7 +1317,7 @@
       "topic": "LCM矩形与集合求和",
       "category": "数论",
       "example": "AGC038C",
-      "sha256": "82543dc95c9700ad6f4e7675c4d06638020df2cc8b0369aa477442f22e35a797",
+      "sha256": "b077008549bd1c06a8af3d21c803ab195f7b5b55c43b9fc662176144a55ae90d",
       "compiled": true,
       "sample_tests": 2
     },
@@ -1295,7 +1325,7 @@
       "topic": "卡特兰数与反射原理",
       "category": "数论",
       "example": "P1044",
-      "sha256": "258ce4aeda2790da236f598d81b87c2035eefd904bce29e2cc1ad664b698b041",
+      "sha256": "9eae2cdcd91bc474a6d8a7642d80cd7f27b7468703755098eb24ffd7caaadf01",
       "compiled": true,
       "sample_tests": 0
     },
@@ -1303,7 +1333,7 @@
       "topic": "卡特兰数与反射原理",
       "category": "数论",
       "example": "P1641",
-      "sha256": "41783299d33e0c651c01b595fc7f1d6f6524247d4a1148063dcc401b56fa359b",
+      "sha256": "4eaa6e7b159fbf079b3b68c114ccfd539f2834e4aff9345d96345da087ab57fe",
       "compiled": true,
       "sample_tests": 0
     },
@@ -1311,7 +1341,7 @@
       "topic": "两互质面额不可表示数",
       "category": "tirick",
       "example": "P3951",
-      "sha256": "0a27e8036d05b1589fca7320b1ae455ec21764ae6bff26507e34fc55cd022c88",
+      "sha256": "ee0c98af86a11a8c50cc898d8fbbe96170c3cd4266e38647f113fc4943f13f58",
       "compiled": true,
       "sample_tests": 1
     },
@@ -1319,7 +1349,7 @@
       "topic": "两互质面额不可表示数",
       "category": "tirick",
       "example": "HDU1792",
-      "sha256": "37683954df57ef0a3fc5a1d4420698f88b4266725ffdae8d7a137c410e54e32c",
+      "sha256": "ce0865a84428880979cc99f893931f959df0046282c3c10d7909e54b1fd16633",
       "compiled": true,
       "sample_tests": 2
     },
@@ -1351,7 +1381,7 @@
       "topic": "置换环分解",
       "category": "tirick",
       "example": "ABC350C",
-      "sha256": "547d81498a487f3369404bfb1443343e5e4d7b4f7d8114e4ea82d67bfa7fd231",
+      "sha256": "460a8476c4343738232b662ef01ca14d689c2b1aa309e2ce87dfc2dcf6717df6",
       "compiled": true,
       "sample_tests": 0
     },
@@ -1359,7 +1389,7 @@
       "topic": "置换环分解",
       "category": "tirick",
       "example": "ABC247F",
-      "sha256": "823f3a57d50880a0dfc4f02ea76913d5f810a84b5362fbbdbb4aabd882e46395",
+      "sha256": "26ebaef7b4bfd3e2485b060cd99c7442d33bb5b5e4cc48c8df90d5fd7da691d8",
       "compiled": true,
       "sample_tests": 2
     },
@@ -1367,7 +1397,7 @@
       "topic": "置换环分解",
       "category": "tirick",
       "example": "ABC436E",
-      "sha256": "c748e87db3a1a7c59f723cbe54382149f52741ea8dc693bca7f8df90b991f5be",
+      "sha256": "744f545b5e1d452b00b2ba156aa929981f4418355d106315399c4816beee3d9c",
       "compiled": true,
       "sample_tests": 3
     },
@@ -1423,7 +1453,7 @@
       "topic": "二状态树形背包",
       "category": "dp",
       "example": "Gym102992M",
-      "sha256": "9c80d0bad4f2d94ae3399ced857331988dd03c6f1e857d05bec17e9ee48baaa8",
+      "sha256": "777c6d48a9cafbd7495862cb5e03b36b2ac06c083ad18ab3c667a662954bc1e3",
       "compiled": true,
       "sample_tests": 1
     },
@@ -1431,9 +1461,33 @@
       "topic": "二状态树形背包",
       "category": "dp",
       "example": "P2016",
-      "sha256": "cdce00bb7aee7f10a167688fc314ef0ba97459af472eec456ecf06c3e199d916",
+      "sha256": "48432f7c519efc7bcefdac701ecdfe4e0f4d1ab6950e4bb8e3f0041d7a592a7b",
       "compiled": true,
       "sample_tests": 0
+    },
+    {
+      "topic": "树上行走与返回状态设计",
+      "category": "dp",
+      "example": "ABC361E",
+      "sha256": "c583ad9aee708ae3d93814444289bef828ecfc9b03512ce5faf17b783144a686",
+      "compiled": true,
+      "sample_tests": 2
+    },
+    {
+      "topic": "树上行走与返回状态设计",
+      "category": "dp",
+      "example": "Gym102769K",
+      "sha256": "94e6bd12be0ef1da56190f831958641f726e9e04ef97a476faf9f551c7b8b8b1",
+      "compiled": true,
+      "sample_tests": 1
+    },
+    {
+      "topic": "树上行走与返回状态设计",
+      "category": "dp",
+      "example": "Gym103470H",
+      "sha256": "7d82d1fbe836247e800c34c90e0b39e92e955a98d8834adc8ecef9035e55185c",
+      "compiled": true,
+      "sample_tests": 1
     }
   ],
   "oracles": [
@@ -1441,103 +1495,229 @@
       "topic": "树上不相交给定路径",
       "cases": 500,
       "result": "全部通过",
-      "seed": 20261011
+      "seed": 20261011,
+      "sha256": "6798a42a1c1acacd851e70869957763d6046ef9cf7cb5e49f47af33cc9a7b6da"
+    },
+    {
+      "topic": "树上不相交给定路径（函数版）",
+      "cases": 500,
+      "result": "全部通过",
+      "seed": 20261011,
+      "sha256": "4adb87cf221fd208e7ba8dc485d58a83b84ce0c245e9eef3962602cbdda7d695"
     },
     {
       "topic": "祖先路径最小费用覆盖",
       "cases": 600,
       "result": "全部通过",
-      "seed": 20261011
+      "seed": 20261011,
+      "sha256": "d6a016d4742650fac0e436bb95e6ad602c6643bc3f60bd2ed5ed08f506d420a1"
+    },
+    {
+      "topic": "祖先路径最小费用覆盖（函数版）",
+      "cases": 600,
+      "result": "全部通过",
+      "seed": 20261011,
+      "sha256": "43f55bcbf9788c854cc39a88e3a02e17ddaab05377261e7979cd426077850c24"
     },
     {
       "topic": "二状态树形背包",
       "cases": 500,
       "result": "全部通过",
-      "seed": 20261011
+      "seed": 20261011,
+      "sha256": "b11e4663882cde1fb4c8435e24714970e087729fbbbecc27371b0951412d355e"
+    },
+    {
+      "topic": "二状态树形背包（函数版）",
+      "cases": 500,
+      "result": "全部通过",
+      "seed": 20261011,
+      "sha256": "faa4a5fb158924a6467a3bd6775f40ff08889de9713d8d700a8576bbe82c1736"
     },
     {
       "topic": "区间强制对象分治",
       "cases": 600,
       "result": "全部通过",
-      "seed": 20261011
+      "seed": 20261011,
+      "sha256": "7f131ffa671b13966ec2a5bf40595c390cbd4fcc77c1c1bdc5de4b78d504ba8a"
+    },
+    {
+      "topic": "区间强制对象分治（函数版）",
+      "cases": 600,
+      "result": "全部通过",
+      "seed": 20261011,
+      "sha256": "8408a6507f7043bce19325fec37f07aa2985c6596c03c6e4310cf50f33dcd7d3"
     },
     {
       "topic": "扩展Lucas",
       "cases": 700,
       "result": "全部通过",
-      "seed": 20261011
+      "seed": 20261011,
+      "sha256": "32d23ee8b08acf4e74c3284ed80f65442f7d4ee33d293fd17b15c281cd3761b7"
     },
     {
       "topic": "BSGS离散对数",
       "cases": 1200,
       "result": "全部通过",
-      "seed": 20261011
+      "seed": 20261011,
+      "sha256": "511e102b16c2d05908d178192e34c78faeb324f9d9ed42daf996f4ec526aea69"
     },
     {
       "topic": "扩展欧拉与指数塔",
       "cases": 600,
       "result": "全部通过",
-      "seed": 20261011
+      "seed": 20261011,
+      "sha256": "e734cd8819b4c41472de474280df6c415817a6e11f4dbc5d360c3ecae39de76c"
     },
     {
       "topic": "数位背包",
       "cases": 650,
       "result": "全部通过",
-      "seed": 20261011
+      "seed": 20261011,
+      "sha256": "b6bf8d6092d5786d1bd57630540555137fe926f171441fdd5f5dab9fd03f3c7e"
+    },
+    {
+      "topic": "数位背包（函数版）",
+      "cases": 650,
+      "result": "全部通过",
+      "seed": 20261011,
+      "sha256": "379c15820f3faa4c9b4529417426b718b2d01170e8bbeeebc76f911bc066ea1a"
     },
     {
       "topic": "置换环分解",
       "cases": 400,
       "result": "全部通过",
-      "seed": 20261011
+      "seed": 20261011,
+      "sha256": "8053700b84fe51a7563157dd4f6c69bc532e6d50e8b5b07e6a2b703c88bdfd09"
+    },
+    {
+      "topic": "置换环分解（函数版）",
+      "cases": 400,
+      "result": "全部通过",
+      "seed": 20261011,
+      "sha256": "911cf0e07a41bc9ab64b4a814e698f524f60b1c825fbd2c9a3374eea8af665b4"
     },
     {
       "topic": "基环树最大权独立集",
       "cases": 500,
       "result": "全部通过",
-      "seed": 20261011
+      "seed": 20261011,
+      "sha256": "ae4b88c314ee7918ebd515a72c3a9b6a70554b7ed4ddd56bd2469b28c9fbc1db"
+    },
+    {
+      "topic": "基环树最大权独立集（函数版）",
+      "cases": 500,
+      "result": "全部通过",
+      "seed": 20261011,
+      "sha256": "b1141104887e9e7de2399a006bf1604eb5b09b0a3d08c765f948930678fe6109"
     },
     {
       "topic": "基环树最长路径与断环直径",
       "cases": 300,
       "result": "全部通过",
-      "seed": 20261011
+      "seed": 20261011,
+      "sha256": "4a390e1c26c40aa41ee4be2dbd8f51bb3ec354e8040ba777d9ae248953464d23"
+    },
+    {
+      "topic": "基环树最长路径与断环直径（函数版）",
+      "cases": 300,
+      "result": "全部通过",
+      "seed": 20261011,
+      "sha256": "c4fd1643977f4f45ad0ba0458dd708835b743c46cbeee126eabd24845e0da558"
     },
     {
       "topic": "括号计数与无歧义区间DP",
       "cases": 600,
       "result": "全部通过",
-      "seed": 20261011
+      "seed": 20261011,
+      "sha256": "a79c6960c8c8e591afbec607641523e0f46cf2daa6a30ea0234cc5add92ab43e"
+    },
+    {
+      "topic": "括号计数与无歧义区间DP（函数版）",
+      "cases": 600,
+      "result": "全部通过",
+      "seed": 20261011,
+      "sha256": "24a517448d092ec7a92d62531b5db9b41a76d23eeee57c8087d78825b1221380"
     },
     {
       "topic": "Kingdom军队遍历树DP",
       "cases": 100,
       "result": "全部通过",
-      "seed": 20261011
+      "seed": 20261011,
+      "sha256": "a3885a659a3b89719423a5fde5951aeb04d79da97b0be53377add1c409488e84"
+    },
+    {
+      "topic": "Kingdom军队遍历树DP（函数版）",
+      "cases": 100,
+      "result": "全部通过",
+      "seed": 20261011,
+      "sha256": "64714c4bde6d0ec5ad314b07a43952ad2455e87e55b7a593dae8440626b3400f"
     },
     {
       "topic": "Crystalfly三状态树DP",
       "cases": 100,
       "result": "全部通过",
-      "seed": 20261011
+      "seed": 20261011,
+      "sha256": "65d62ed0c24193b2a12d01685d403e356df901cbe4609cef1d46188a5145bc64"
+    },
+    {
+      "topic": "Crystalfly三状态树DP（函数版）",
+      "cases": 100,
+      "result": "全部通过",
+      "seed": 20261011,
+      "sha256": "08b8e03670878f64bde6046439e6ae0440fd6026f6af4e1b56b3c5d3f1cb3d2f"
     },
     {
       "topic": "有上下界可行流与最大流",
       "cases": 400,
       "result": "全部通过",
-      "seed": 20261011
+      "seed": 20261011,
+      "sha256": "59a2e379519bc595211bfc435059ba5e2f5c0791926bed9f4f38066833cbdc00"
     },
     {
       "topic": "有上下界可行流与最大流",
       "cases": 400,
       "result": "全部通过",
-      "seed": 20261011
+      "seed": 20261011,
+      "sha256": "4fa88c43f9719b3d004b33ea3c4fbcd43fdfac00f56bba3529d9634b9407861d"
     },
     {
       "topic": "最小费用最大流",
       "cases": 400,
       "result": "全部通过",
-      "seed": 20261011
+      "seed": 20261011,
+      "sha256": "b0fe93c3b9b93744dc27c8cabe952a0a91c3ca7cac7cf0e44c896040e2bc6ac0"
+    },
+    {
+      "example": "ABC361E",
+      "cases": 400,
+      "oracle": "所有起点状态的点集最短路",
+      "seed": 20261012,
+      "result": "全部通过",
+      "sha256": "5eaad6803ff3d18a8474d9e40481b95d92103276f319464d01d550a1ff4e2fcc"
+    },
+    {
+      "example": "P2016",
+      "cases": 500,
+      "oracle": "穷举全部顶点覆盖，随机输入边方向",
+      "seed": 20261012,
+      "result": "全部通过",
+      "sha256": "0025ee921e90f0d08f343e7ac61fcc80bb946d89246893aa1f323f88cab0c374"
+    },
+    {
+      "example": "P1048",
+      "cases": 650,
+      "oracle": "穷举全部物品子集",
+      "seed": 20261012,
+      "result": "全部通过",
+      "sha256": "650602f60e12ae61ab43b0f8f5896128c1c98940d9269a400ae73490a32f17db"
+    },
+    {
+      "example": "CF1675D",
+      "cases": 400,
+      "oracle": "叶子数最优下界＋输出点覆盖、不重与父子连续性检查，随机重编号",
+      "seed": 20261012,
+      "result": "全部通过",
+      "sha256": "8e70336ee8fd5301eec181e937ea7fda484f86b3e1832fd838b27514fd520251"
     }
   ]
 }

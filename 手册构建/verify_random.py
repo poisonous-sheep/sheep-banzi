@@ -3,11 +3,25 @@ from common import *
 import random, subprocess, itertools, math, hashlib, collections, concurrent.futures
 R=random.Random(20261011)
 topics=json.loads(CATALOG.read_text(encoding='utf-8'));T={t['name']:t for t in topics}
+for legacy,cls in [('Crystalfly三状态树DP','Crystalfly'),('Kingdom军队遍历树DP','KingdomPower')]:
+    raw=(ROOT/'dp/整理版'/legacy/'模板.cpp').read_text(encoding='utf-8')
+    T[legacy]={'body':raw.split('void solve()')[0].replace(HEADER,''),'struct':cls,
+        'examples':[e for t in topics for e in t['examples'] if e['id']==('Gym103470H' if cls=='Crystalfly' else 'Gym102769K')]}
 B=ROOT/'.work_review/handbook/oracles';B.mkdir(parents=True,exist_ok=True)
 jobs=[]
 def addjob(name,driver,cases):
     code=HEADER+T[name]['body']+'\nsigned main(){ios::sync_with_stdio(false);cin.tie(nullptr);int T;cin>>T;while(T--){'+driver+'}}\n'
     jobs.append((name,code,cases))
+    ex=next((e for e in T[name]['examples'] if 'init_model' in e.get('full_code','')),None)
+    if ex:
+        cls=T[name]['struct'];objs=[]
+        def obj(m):objs.append(m.group(1));return '::init_model('+(m.group(2) or '')+');'
+        adapted=re.sub(r'\b'+re.escape(cls)+r'\s+(\w+)\s*(?:\(([^;]*)\))?\s*;',obj,driver)
+        for x in objs:adapted=re.sub(r'\b'+re.escape(x)+r'\.', '::',adapted)
+        adapted=adapted.replace(cls+'::','::').replace(':::',': ::')
+        prefix=ex['full_code'].split('void solve()')[0]
+        program=prefix+'\nsigned main(){ios::sync_with_stdio(false);cin.tie(nullptr);int T;cin>>T;while(T--){'+adapted+'}}\n'
+        jobs.append((name+'（函数版）',program,cases))
 def paths(fa,x,y):
     ax=[]
     while x:ax.append(x);x=fa[x]
